@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block title %}Sources{% endblock %}
+
+{% block content %}
+
+<section class="hero is-primary">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">Sources</h1>
+            <h2 class="subtitle">The data's origins</h2>
+        </div>
+    </div>
+</section>
+<br />
+
+<div class="container content">
+    <h2>
+        <span class="icon">
+            <i class="mdi mdi-aws" aria-hidden="true"></i>
+        </span>
+        Amazon Web Services</h2>
+    <p>
+        Amazon maintains a page with all current generation EC2 <a href="https://aws.amazon.com/ec2/instance-types/">instance types</a>.
+        Data was generally extracted from this page.
+        However, there were some details that have come from family specific pages
+        (e.g. <a href="https://aws.amazon.com/ec2/instance-types/i3en/">i3en family</a>)
+        or new instance type blog announcements
+        (e.g. <a href="https://aws.amazon.com/blogs/aws/new-graviton2-instance-types-c6g-r6g-and-their-d-variant/">c6g</a>).
+    </p>
+
+    <h4>References</h4>
+    <ul>
+        <li><a href="https://aws.amazon.com/ec2/">AWS EC2 Overview</a></li>
+        <li><a href="https://aws.amazon.com/ec2/instance-types/">Instance Types</a></li>
+    </ul>
+
+    <h2>
+        <span class="icon">
+            <i class="mdi mdi-google-cloud" aria-hidden="true"></i>
+        </span>
+        Google Cloud</h2>
+    <p>All data was pulled from Google's Compute Engine <a href="https://cloud.google.com/compute/docs/machine-types">machine types</a> page.</p>
+
+    <h4>References</h4>
+    <ul>
+        <li><a href="https://cloud.google.com/compute/">Google Cloud Compute Engine Overview</a></li>
+        <li><a href="https://cloud.google.com/compute/docs/machine-types">Machine Types</a></li>
+    </ul>
+
+    <h2>
+        <span class="icon">
+            <i class="mdi mdi-microsoft-azure" aria-hidden="true"></i>
+        </span>
+        Microsoft Azure</h2>
+    <p>
+        Microsoft has individual pages for every Azure
+        <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/sizes">virtual machine size</a>.
+        Data was pulled from each size's page.
+    </p>
+
+    <h4>References</h4>
+    <ul>
+        <li><a href="https://azure.microsoft.com/en-us/services/virtual-machines/">Microsoft Azure Virtual Machines Overview</a></li>
+        <li><a href="https://docs.microsoft.com/en-us/azure/virtual-machines/sizes">Sizes for Virtual Machines</a></li>
+    </ul>
+</div>
+
+{% endblock %}

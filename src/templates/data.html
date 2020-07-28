@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}Data{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <script defer src="js/search.js" async></script>
+{% endblock %}
+
+{% block content %}
+<section class="hero is-primary">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">Data</h1>
+            <h2 class="subtitle">View and download the data</h2>
+        </div>
+    </div>
+</section>
+<br />
+
+<div class="container content">
+    <div class="columns">
+        <div class="column has-text-left">
+            <a class="button is-info" href="instance-types.json">
+                <span class="icon">
+                    <i class="mdi mdi-code-json" aria-hidden="true"></i>
+                </span>&nbsp;
+                Download .json
+            </a>
+            <a class="button is-danger" href="instance-types.csv">
+                <span class="icon">
+                    <i class="mdi mdi-comma" aria-hidden="true"></i>
+                </span>&nbsp;
+                Download .csv
+            </a>
+        </div>
+        <div class="column">
+            <div class="field">
+                <p class="control has-icons-left">
+                    <input
+                        class="input search-input"
+                        placeholder="Filter table"
+                        data-table="instance-types-table"
+                    />
+                    <span class="icon is-left">
+                        <i class="mdi mdi-magnify" aria-hidden="true"></i>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <table class="table is-hoverable is-narrow is-striped instance-types-table">
+        <thead>
+            <tr>
+                <th class="has-text-centered">Cloud</th>
+                <th class="has-text-centered">Family</th>
+                <th class="has-text-centered">Category</th>
+                <th class="has-text-centered">Size</th>
+                <th class="has-text-centered">CPU</th>
+                <th class="has-text-centered">Memory</th>
+                <th class="has-text-centered">Storage Boot</th>
+                <th class="has-text-centered">Storage Extra</th>
+                <th class="has-text-centered">Network</th>
+                <th class="has-text-centered">Other Devices</th>
+                <th class="has-text-centered">CPU Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for instance in instances -%}
+                <tr>{{ instance }}</tr>
+            {%- endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}
