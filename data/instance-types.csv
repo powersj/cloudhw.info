@@ -52,6 +52,15 @@ Amazon Web Services,Compute Optimized,C6g,6,c6g.8xlarge,32,64,EBS,,12,,AWS Gravi
 Amazon Web Services,Compute Optimized,C6g,7,c6g.12xlarge,48,96,EBS,,20,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/c6/,Nitro (KVM)
 Amazon Web Services,Compute Optimized,C6g,8,c6g.16xlarge,64,128,EBS,,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/c6/,Nitro (KVM)
 Amazon Web Services,Compute Optimized,C6g,9,c6g.metal,64,128,EBS,,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/c6/,Nitro (KVM)
+Amazon Web Services,Compute Optimized,C6g,10,c6gd.medium,1,2,EBS,1x 59 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/c6/,Nitro (KVM)
+Amazon Web Services,Compute Optimized,C6g,11,c6gd.large,2,4,EBS,1x 118 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/c6/,Nitro (KVM)
+Amazon Web Services,Compute Optimized,C6g,12,c6gd.xlarge,4,8,EBS,1x 237 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/c6/,Nitro (KVM)
+Amazon Web Services,Compute Optimized,C6g,13,c6gd.2xlarge,8,16,EBS,1x 474 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/c6/,Nitro (KVM)
+Amazon Web Services,Compute Optimized,C6g,14,c6gd.4xlarge,16,32,EBS,1x 950 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/c6/,Nitro (KVM)
+Amazon Web Services,Compute Optimized,C6g,15,c6gd.8xlarge,32,64,EBS,1x 1900 GiB NVMe SSD,12,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/c6/,Nitro (KVM)
+Amazon Web Services,Compute Optimized,C6g,16,c6gd.12xlarge,48,96,EBS,2x 1425 GiB NVMe SSD,20,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/c6/,Nitro (KVM)
+Amazon Web Services,Compute Optimized,C6g,17,c6gd.16xlarge,64,128,EBS,2x 1900 GiB NVMe SSD,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/c6/,Nitro (KVM)
+Amazon Web Services,Compute Optimized,C6g,18,c6gd.metal,64,128,EBS,2x 1900 GiB NVMe SSD,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/c6/,Nitro (KVM)
 Amazon Web Services,Storage Optimized,D2,1,d2.xlarge,4,30.5,EBS,3x 2000 GiB HDD,Moderate,,Intel Xeon E5-2676 v3 (Haswell),https://aws.amazon.com/about-aws/whats-new/2015/03/now-available-d2-instances-the-latest-generation-of-amazon-ec2-dense-storage-instances/,HVM (Xen)
 Amazon Web Services,Storage Optimized,D2,2,d2.2xlarge,8,61,EBS,6x 2000 GiB HDD,High,,Intel Xeon E5-2676 v3 (Haswell),https://aws.amazon.com/about-aws/whats-new/2015/03/now-available-d2-instances-the-latest-generation-of-amazon-ec2-dense-storage-instances/,HVM (Xen)
 Amazon Web Services,Storage Optimized,D2,3,d2.4xlarge,16,122,EBS,12x 2000 GiB HDD,High,,Intel Xeon E5-2676 v3 (Haswell),https://aws.amazon.com/about-aws/whats-new/2015/03/now-available-d2-instances-the-latest-generation-of-amazon-ec2-dense-storage-instances/,HVM (Xen)
@@ -161,6 +170,15 @@ Amazon Web Services,General Purpose,M6g,6,m6g.8xlarge,32,128,EBS,,12,,AWS Gravit
 Amazon Web Services,General Purpose,M6g,7,m6g.12xlarge,48,192,EBS,,20,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/m6/,Nitro (KVM)
 Amazon Web Services,General Purpose,M6g,8,m6g.16xlarge,64,256,EBS,,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/m6/,Nitro (KVM)
 Amazon Web Services,General Purpose,M6g,9,m6g.metal,64,256,EBS,,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/m6/,Nitro (KVM)
+Amazon Web Services,General Purpose,M6g,10,m6gd.medium,1,4,EBS,1x 59 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/m6/,Nitro (KVM)
+Amazon Web Services,General Purpose,M6g,11,m6gd.large,2,8,EBS,1x 118 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/m6/,Nitro (KVM)
+Amazon Web Services,General Purpose,M6g,12,m6gd.xlarge,4,16,EBS,1x 237 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/m6/,Nitro (KVM)
+Amazon Web Services,General Purpose,M6g,13,m6gd.2xlarge,8,32,EBS,1x 474 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/m6/,Nitro (KVM)
+Amazon Web Services,General Purpose,M6g,14,m6gd.4xlarge,16,64,EBS,1x 950 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/m6/,Nitro (KVM)
+Amazon Web Services,General Purpose,M6g,15,m6gd.8xlarge,32,128,EBS,1x 1900 GiB NVMe SSD,12,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/m6/,Nitro (KVM)
+Amazon Web Services,General Purpose,M6g,16,m6gd.12xlarge,48,192,EBS,2x 1425 GiB NVMe SSD,20,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/m6/,Nitro (KVM)
+Amazon Web Services,General Purpose,M6g,17,m6gd.16xlarge,64,256,EBS,2x 1900 GiB NVMe SSD,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/m6/,Nitro (KVM)
+Amazon Web Services,General Purpose,M6g,18,m6gd.metal,64,256,EBS,2x 1900 GiB NVMe SSD,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/m6/,Nitro (KVM)
 Amazon Web Services,Accelerated Computing,P2,1,p2.xlarge,1,61,EBS,,High,1x NVIDIA Tesla K80 GPU,Intel Xeon E5-2686 v4 (Broadwell),https://aws.amazon.com/ec2/instance-types/p2/,HVM (Xen)
 Amazon Web Services,Accelerated Computing,P2,2,p2.8xlarge,8,488,EBS,,10,8x NVIDIA Tesla K80 GPU,Intel Xeon E5-2686 v4 (Broadwell),https://aws.amazon.com/ec2/instance-types/p2/,HVM (Xen)
 Amazon Web Services,Accelerated Computing,P2,3,p2.16xlarge,16,732,EBS,,25,16x NVIDIA Tesla K80 GPU,Intel Xeon E5-2686 v4 (Broadwell),https://aws.amazon.com/ec2/instance-types/p2/,HVM (Xen)
@@ -231,6 +249,15 @@ Amazon Web Services,Memory Optimized,R6g,6,r6g.8xlarge,32,256,EBS,,12,,AWS Gravi
 Amazon Web Services,Memory Optimized,R6g,7,r6g.12xlarge,48,384,EBS,,20,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
 Amazon Web Services,Memory Optimized,R6g,8,r6g.16xlarge,64,512,EBS,,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
 Amazon Web Services,Memory Optimized,R6g,9,r6g.metal,64,512,EBS,,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R6g,10,r6gd.medium,1,8,EBS,1x 59 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R6g,11,r6gd.large,2,16,EBS,1x 118 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R6g,12,r6gd.xlarge,4,32,EBS,1x 237 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R6g,13,r6gd.2xlarge,8,64,EBS,1x 474 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R6g,14,r6gd.4xlarge,16,128,EBS,1x 950 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R6g,15,r6gd.8xlarge,32,256,EBS,1x 1900 GiB NVMe SSD,12,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R6g,16,r6gd.12xlarge,48,384,EBS,2x 1425 GiB NVMe SSD,20,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R6g,17,r6gd.16xlarge,64,512,EBS,2x 1900 GiB NVMe SSD,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R6g,18,r6gd.metal,64,512,EBS,2x 1900 GiB NVMe SSD,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
 Amazon Web Services,General Purpose,T2,1,t2.nano,1,0.5,EBS,,Low,,Intel Xeon,https://aws.amazon.com/ec2/instance-types/t2/,HVM (Xen)
 Amazon Web Services,General Purpose,T2,2,t2.micro,1,1,EBS,,Low to Moderate,,Intel Xeon,https://aws.amazon.com/ec2/instance-types/t2/,HVM (Xen)
 Amazon Web Services,General Purpose,T2,3,t2.small,1,2,EBS,,Low to Moderate,,Intel Xeon,https://aws.amazon.com/ec2/instance-types/t2/,HVM (Xen)
@@ -375,23 +402,23 @@ Google Cloud,General Purpose,N2D,28,n2d-highcpu-80,80,80,SSD,,32,,AMD EPYC (Rome
 Google Cloud,General Purpose,N2D,29,n2d-highcpu-96,96,96,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
 Google Cloud,General Purpose,N2D,30,n2d-highcpu-128,128,128,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
 Google Cloud,General Purpose,N2D,31,n2d-highcpu-224,224,224,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Microsoft Azure,General Purpose,Av2,1,A1_v2,1,2,10 SSD,,0.25,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
-Microsoft Azure,General Purpose,Av2,2,A2_v2,2,4,20 SSD,,0.5,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
-Microsoft Azure,General Purpose,Av2,3,A4_v2,4,8,40 SSD,,1,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
-Microsoft Azure,General Purpose,Av2,4,A8_v2,8,16,80 SSD,,2,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
-Microsoft Azure,General Purpose,Av2,5,A2m_v2,2,16,20 SSD,,0.5,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
-Microsoft Azure,General Purpose,Av2,6,A4m_v2,4,32,40 SSD,,1,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
-Microsoft Azure,General Purpose,Av2,7,A8m_v2,8,64,80 SSD,,2,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
-Microsoft Azure,General Purpose,B,1,B1ls,1,0.5,4 GIB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
-Microsoft Azure,General Purpose,B,2,B1s,1,1,4 GIB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
-Microsoft Azure,General Purpose,B,3,B1ms,1,2,4 GIB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
-Microsoft Azure,General Purpose,B,4,B2s,2,4,8 GIB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
-Microsoft Azure,General Purpose,B,5,B2ms,2,8,16 GIB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
-Microsoft Azure,General Purpose,B,6,B4ms,4,16,32 GIB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
-Microsoft Azure,General Purpose,B,7,B8ms,8,32,64 GIB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
-Microsoft Azure,General Purpose,B,8,B12ms,12,48,96 GIB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
-Microsoft Azure,General Purpose,B,9,B16ms,16,64,128 GIB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
-Microsoft Azure,General Purpose,B,10,B20ms,20,80,160 GIB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
+Microsoft Azure,General Purpose,Av2,1,A1_v2,1,2,10 GiB SSD,,0.25,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
+Microsoft Azure,General Purpose,Av2,2,A2_v2,2,4,20 GiB SSD,,0.5,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
+Microsoft Azure,General Purpose,Av2,3,A4_v2,4,8,40 GiB SSD,,1,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
+Microsoft Azure,General Purpose,Av2,4,A8_v2,8,16,80 GiB SSD,,2,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
+Microsoft Azure,General Purpose,Av2,5,A2m_v2,2,16,20 GiB SSD,,0.5,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
+Microsoft Azure,General Purpose,Av2,6,A4m_v2,4,32,40 GiB SSD,,1,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
+Microsoft Azure,General Purpose,Av2,7,A8m_v2,8,64,80 GiB SSD,,2,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
+Microsoft Azure,General Purpose,B,1,B1ls,1,0.5,4 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
+Microsoft Azure,General Purpose,B,2,B1s,1,1,4 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
+Microsoft Azure,General Purpose,B,3,B1ms,1,2,4 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
+Microsoft Azure,General Purpose,B,4,B2s,2,4,8 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
+Microsoft Azure,General Purpose,B,5,B2ms,2,8,16 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
+Microsoft Azure,General Purpose,B,6,B4ms,4,16,32 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
+Microsoft Azure,General Purpose,B,7,B8ms,8,32,64 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
+Microsoft Azure,General Purpose,B,8,B12ms,12,48,96 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
+Microsoft Azure,General Purpose,B,9,B16ms,16,64,128 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
+Microsoft Azure,General Purpose,B,10,B20ms,20,80,160 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
 Microsoft Azure,General Purpose,Dasv4,1,D2as_v4,2,8,16 GiB SSD,,1,,AMD EPYC 7452 (Rome),https://docs.microsoft.com/en-us/azure/virtual-machines/dav4-dasv4-series,Hyper-V
 Microsoft Azure,General Purpose,Dasv4,2,D4as_v4,4,16,32 GiB SSD,,2,,AMD EPYC 7452 (Rome),https://docs.microsoft.com/en-us/azure/virtual-machines/dav4-dasv4-series,Hyper-V
 Microsoft Azure,General Purpose,Dasv4,3,D8as_v4,8,32,64 GiB SSD,,4,,AMD EPYC 7452 (Rome),https://docs.microsoft.com/en-us/azure/virtual-machines/dav4-dasv4-series,Hyper-V
