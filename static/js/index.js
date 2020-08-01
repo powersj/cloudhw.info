@@ -143,6 +143,14 @@ function addFamilyMember(member, target_size) {
 
 function loadFamilyTable(family, target_size) {
     var table = `
+    <div class="box">
+    <p class="subtitle">
+        <span class="icon">
+            <i class="mdi mdi-server" aria-hidden="true"></i>
+        </span>
+        Family Sizes
+    </p>
+    <div class="content">
     <table class="table is-hoverable is-narrow is-striped ">
     <thead>
         <tr>
@@ -160,7 +168,7 @@ function loadFamilyTable(family, target_size) {
         table = table + addFamilyMember(member, target_size);
     }
 
-    document.getElementById("family").innerHTML = table + "</tbody></table>";
+    document.getElementById("family").innerHTML = table + "</tbody></table></div></div>";
 }
 
 function loadInstanceBoxes(instance) {
@@ -179,33 +187,93 @@ function loadInstanceBoxes(instance) {
     <a href="${instance.family_url}">
         ${instance.cloud} ${instance.family} family
     </a>`;
-    document.getElementById("details").innerHTML = overview;
+    document.getElementById("details").innerHTML = `
+    <div class="box">
+    <p class="subtitle">
+        <span class="icon">
+            <i class="mdi mdi-clipboard-text" aria-hidden="true"></i>
+        </span>
+        Overview
+    </p>
+    <p class="content">${overview}</p>
+    </div>
+    `;
 
     var cpu = instance.cpu;
     if (instance.cpu_type) {
         cpu = cpu + `x ${instance.cpu_type}`;
     }
-    document.getElementById("cpu").innerHTML = cpu;
+    document.getElementById("cpu").innerHTML = `
+    <div class="box">
+    <p class="subtitle">
+        <span class="icon">
+            <i class="mdi mdi-memory" aria-hidden="true"></i>
+        </span>
+        CPU
+    </p>
+    <p class="content">${cpu}</p>
+    </div>
+    `;
 
     var memory = instance.memory;
     if (memory) {
         memory = memory + " GiB";
     }
-    document.getElementById("memory").innerHTML = memory;
+    document.getElementById("memory").innerHTML = `
+    <div class="box">
+    <p class="subtitle">
+        <span class="icon">
+            <i class="mdi mdi-chip" aria-hidden="true"></i>
+        </span>
+        Memory
+    </p>
+    <p class="content">${memory}</p>
+    </div>
+    `;
 
     var network = instance.network_bandwidth;
     if (network) {
         network = network + " Gbps";
     }
-    document.getElementById("network").innerHTML = network;
+    document.getElementById("network").innerHTML = `
+    <div class="box">
+    <p class="subtitle">
+        <span class="icon">
+            <i class="mdi mdi-router-network" aria-hidden="true"></i>
+        </span>
+        Network
+    </p>
+    <p class="content">${network}</p>
+    </div>
+    `;
 
     var storage = instance.storage_boot;
     if (instance.storage_extra) {
         storage += ` and ${instance.storage_extra}`;
     }
-    document.getElementById("storage").innerHTML = storage;
+    document.getElementById("storage").innerHTML = `
+    <div class="box">
+    <p class="subtitle">
+        <span class="icon">
+            <i class="mdi mdi-harddisk" aria-hidden="true"></i>
+        </span>
+        Storage
+    </p>
+    <p class="content" >${storage}</p>
+    </div>
+    `;
 
-    document.getElementById("notes").innerHTML = instance.other_devices;
+    document.getElementById("notes").innerHTML = `
+    <div class="box">
+        <p class="subtitle">
+            <span class="icon">
+                <i class="mdi mdi-expansion-card-variant" aria-hidden="true"></i>
+            </span>
+            Other Devices
+        </p>
+        <p class="content" id="notes">${instance.other_devices}</p>
+    </div>
+    `;
 }
 
 function indexOfFirstDigit(input) {
