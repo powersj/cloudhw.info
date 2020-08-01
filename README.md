@@ -1,5 +1,7 @@
 # cloudhw.info
 
+[![Build Status](https://travis-ci.com/powersj/cloudhw.info.svg?branch=master)](https://travis-ci.com/powersj/cloudhw.info)
+
 Decoder ring for cloud instance hardware
 
 ## Overview
