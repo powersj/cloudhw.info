@@ -20,7 +20,10 @@ class Generate:
         json_data = sorted(
             json_data, key=lambda k: (k["cloud"], k["family"], k["family_sort"])
         )
-        self._generate_index(env, json_data)
+
+        instance_types = [val["size"] for val in json_data]
+        self._generate_index(env, instance_types)
+        self._generate_search(env, instance_types)
         self._generate_data(env, json_data)
 
         for page in ["about.html", "sources.html"]:
@@ -63,12 +66,17 @@ class Generate:
         template = env.get_template("data.html")
         self._write_file("data.html", template.render(metadata))
 
-    def _generate_index(self, env, json_data):
+    def _generate_index(self, env, instance_types):
         """Generate home page."""
-        instance_types = [val["size"] for val in json_data]
         template = env.get_template("index.html")
         index = template.render({"instance_types": instance_types})
         self._write_file("index.html", index)
+
+    def _generate_search(self, env, instance_types):
+        """Generate search page."""
+        template = env.get_template("search.html")
+        index = template.render({"instance_types": instance_types})
+        self._write_file("search.html", index)
 
     def _read_json(self, filepath):
         """Read a json file and return as array."""
