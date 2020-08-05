@@ -4720,7 +4720,7 @@
     "virt": "Nitro (KVM)"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 4,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "C2",
@@ -4736,7 +4736,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 8,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "C2",
@@ -4752,7 +4752,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 16,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "C2",
@@ -4768,7 +4768,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 30,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "C2",
@@ -4784,7 +4784,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 60,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "C2",
@@ -4800,12 +4800,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 1,
+    "family_sort": 4,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 8,
     "network_bandwidth": "4",
@@ -4816,12 +4816,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 4,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 2,
+    "family_sort": 5,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 16,
     "network_bandwidth": "8",
@@ -4832,12 +4832,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 8,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 3,
+    "family_sort": 6,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 32,
     "network_bandwidth": "16",
@@ -4848,12 +4848,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 16,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 4,
+    "family_sort": 7,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 64,
     "network_bandwidth": "16",
@@ -4864,12 +4864,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 32,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 5,
+    "family_sort": 8,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 128,
     "network_bandwidth": "16",
@@ -4880,12 +4880,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 6,
+    "family_sort": 9,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 16,
     "network_bandwidth": "4",
@@ -4896,12 +4896,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 4,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 7,
+    "family_sort": 10,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 32,
     "network_bandwidth": "8",
@@ -4912,12 +4912,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 8,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 8,
+    "family_sort": 11,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 64,
     "network_bandwidth": "16",
@@ -4928,12 +4928,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 16,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 9,
+    "family_sort": 12,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 128,
     "network_bandwidth": "16",
@@ -4944,12 +4944,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 10,
+    "family_sort": 13,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 2,
     "network_bandwidth": "4",
@@ -4960,12 +4960,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 4,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 11,
+    "family_sort": 14,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 4,
     "network_bandwidth": "8",
@@ -4976,12 +4976,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 8,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 12,
+    "family_sort": 15,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 8,
     "network_bandwidth": "16",
@@ -4992,12 +4992,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 16,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 13,
+    "family_sort": 16,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 16,
     "network_bandwidth": "16",
@@ -5008,12 +5008,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 32,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
     "family_category": "General Purpose",
-    "family_sort": 14,
+    "family_sort": 17,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#e2_machine_types",
     "memory": 32,
     "network_bandwidth": "16",
@@ -5024,12 +5024,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 1,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 1,
+    "family_sort": 3,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 3.75,
     "network_bandwidth": "2",
@@ -5040,12 +5040,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 2,
+    "family_sort": 4,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 7.5,
     "network_bandwidth": "10",
@@ -5056,12 +5056,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 4,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 3,
+    "family_sort": 5,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 15,
     "network_bandwidth": "10",
@@ -5072,12 +5072,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 8,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 4,
+    "family_sort": 6,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 30,
     "network_bandwidth": "16",
@@ -5088,12 +5088,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 16,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 5,
+    "family_sort": 7,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 60,
     "network_bandwidth": "32",
@@ -5104,12 +5104,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 32,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 6,
+    "family_sort": 8,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 120,
     "network_bandwidth": "32",
@@ -5120,12 +5120,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 64,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 7,
+    "family_sort": 9,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 240,
     "network_bandwidth": "32",
@@ -5136,12 +5136,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 96,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 8,
+    "family_sort": 10,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 360,
     "network_bandwidth": "32",
@@ -5152,12 +5152,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 9,
+    "family_sort": 11,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 13,
     "network_bandwidth": "10",
@@ -5168,12 +5168,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 4,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 10,
+    "family_sort": 12,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 26,
     "network_bandwidth": "10",
@@ -5184,12 +5184,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 8,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 11,
+    "family_sort": 13,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 52,
     "network_bandwidth": "16",
@@ -5200,12 +5200,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 16,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 12,
+    "family_sort": 14,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 104,
     "network_bandwidth": "32",
@@ -5216,12 +5216,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 32,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 13,
+    "family_sort": 15,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 208,
     "network_bandwidth": "32",
@@ -5232,12 +5232,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 64,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 14,
+    "family_sort": 16,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 416,
     "network_bandwidth": "32",
@@ -5248,12 +5248,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 96,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 15,
+    "family_sort": 17,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 624,
     "network_bandwidth": "32",
@@ -5264,12 +5264,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 16,
+    "family_sort": 18,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 1.8,
     "network_bandwidth": "10",
@@ -5280,12 +5280,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 4,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 17,
+    "family_sort": 19,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 3.6,
     "network_bandwidth": "10",
@@ -5296,12 +5296,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 8,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 18,
+    "family_sort": 20,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 7.2,
     "network_bandwidth": "16",
@@ -5312,12 +5312,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 16,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 19,
+    "family_sort": 21,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 14.4,
     "network_bandwidth": "32",
@@ -5328,12 +5328,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 32,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 20,
+    "family_sort": 22,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 28.8,
     "network_bandwidth": "32",
@@ -5344,12 +5344,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 64,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 21,
+    "family_sort": 23,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 57.6,
     "network_bandwidth": "32",
@@ -5360,12 +5360,12 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 96,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
     "family_category": "General Purpose",
-    "family_sort": 22,
+    "family_sort": 24,
     "family_url": "https://cloud.google.com/compute/docs/machine-types#n1_machine_type",
     "memory": 86.4,
     "network_bandwidth": "32",
@@ -5376,7 +5376,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5392,7 +5392,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 4,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5408,7 +5408,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 8,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5424,7 +5424,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 16,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5440,7 +5440,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 32,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5456,7 +5456,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 48,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5472,7 +5472,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 64,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5488,7 +5488,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 80,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5504,7 +5504,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5520,7 +5520,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 4,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5536,7 +5536,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 8,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5552,7 +5552,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 16,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5568,7 +5568,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 32,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5584,7 +5584,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 48,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5600,7 +5600,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 64,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5616,7 +5616,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 80,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5632,7 +5632,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5648,7 +5648,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 4,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5664,7 +5664,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 8,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5680,7 +5680,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 16,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5696,7 +5696,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 32,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5712,7 +5712,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 48,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5728,7 +5728,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 64,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5744,7 +5744,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 80,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "N2",
@@ -5760,7 +5760,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5776,7 +5776,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 4,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5792,7 +5792,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 8,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5808,7 +5808,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 16,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5824,7 +5824,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 32,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5840,7 +5840,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 48,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5856,7 +5856,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 64,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5872,7 +5872,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 80,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5888,7 +5888,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 96,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5904,7 +5904,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 128,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5920,7 +5920,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 224,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5936,7 +5936,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5952,7 +5952,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 4,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5968,7 +5968,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 8,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -5984,7 +5984,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 16,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6000,7 +6000,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 32,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6016,7 +6016,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 48,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6032,7 +6032,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 64,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6048,7 +6048,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 80,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6064,7 +6064,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 96,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6080,7 +6080,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6096,7 +6096,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 4,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6112,7 +6112,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 8,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6128,7 +6128,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 16,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6144,7 +6144,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 32,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6160,7 +6160,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 48,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6176,7 +6176,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 64,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6192,7 +6192,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 80,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6208,7 +6208,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 96,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6224,7 +6224,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 128,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6240,7 +6240,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 224,
     "cpu_type": "AMD EPYC (Rome)",
     "family": "N2D",
@@ -6256,7 +6256,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 40,
     "cpu_type": "Intel Xeon (Broadwell)",
     "family": "M1",
@@ -6272,7 +6272,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 80,
     "cpu_type": "Intel Xeon (Broadwell)",
     "family": "M1",
@@ -6288,7 +6288,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 160,
     "cpu_type": "Intel Xeon (Broadwell)",
     "family": "M1",
@@ -6304,7 +6304,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 96,
     "cpu_type": "Intel Xeon (Skylake)",
     "family": "M1",
@@ -6320,7 +6320,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 208,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "M2",
@@ -6336,7 +6336,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 416,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "M2",
@@ -6352,7 +6352,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 416,
     "cpu_type": "Intel Xeon (Cascade Lake)",
     "family": "M2",
@@ -6368,7 +6368,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
@@ -6384,7 +6384,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
@@ -6400,7 +6400,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 2,
     "cpu_type": "Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",
     "family": "E2",
@@ -6416,7 +6416,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 1,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
@@ -6432,7 +6432,7 @@
     "virt": "KVM"
   },
   {
-    "cloud": "Google Cloud",
+    "cloud": "Google Cloud Platform",
     "cpu": 1,
     "cpu_type": "Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",
     "family": "N1",
@@ -8581,7 +8581,7 @@
     "cpu_type": "Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",
     "family": "DSv2",
     "family_category": "Memory Optimized",
-    "family_sort": 1,
+    "family_sort": 6,
     "family_url": "https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory",
     "memory": 14,
     "network_bandwidth": "1.5",
@@ -8597,7 +8597,7 @@
     "cpu_type": "Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",
     "family": "DSv2",
     "family_category": "Memory Optimized",
-    "family_sort": 2,
+    "family_sort": 7,
     "family_url": "https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory",
     "memory": 28,
     "network_bandwidth": "3",
@@ -8613,7 +8613,7 @@
     "cpu_type": "Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",
     "family": "DSv2",
     "family_category": "Memory Optimized",
-    "family_sort": 3,
+    "family_sort": 8,
     "family_url": "https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory",
     "memory": 56,
     "network_bandwidth": "6",
@@ -8629,7 +8629,7 @@
     "cpu_type": "Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",
     "family": "DSv2",
     "family_category": "Memory Optimized",
-    "family_sort": 4,
+    "family_sort": 9,
     "family_url": "https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory",
     "memory": 112,
     "network_bandwidth": "12",
@@ -8645,7 +8645,7 @@
     "cpu_type": "Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",
     "family": "DSv2",
     "family_category": "Memory Optimized",
-    "family_sort": 5,
+    "family_sort": 10,
     "family_url": "https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory",
     "memory": 140,
     "network_bandwidth": "25",
@@ -8661,7 +8661,7 @@
     "cpu_type": "Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",
     "family": "Dv2",
     "family_category": "Memory Optimized",
-    "family_sort": 1,
+    "family_sort": 6,
     "family_url": "https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory",
     "memory": 14,
     "network_bandwidth": "1.5",
@@ -8677,7 +8677,7 @@
     "cpu_type": "Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",
     "family": "Dv2",
     "family_category": "Memory Optimized",
-    "family_sort": 2,
+    "family_sort": 7,
     "family_url": "https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory",
     "memory": 28,
     "network_bandwidth": "3",
@@ -8693,7 +8693,7 @@
     "cpu_type": "Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",
     "family": "Dv2",
     "family_category": "Memory Optimized",
-    "family_sort": 3,
+    "family_sort": 8,
     "family_url": "https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory",
     "memory": 56,
     "network_bandwidth": "6",
@@ -8709,7 +8709,7 @@
     "cpu_type": "Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",
     "family": "Dv2",
     "family_category": "Memory Optimized",
-    "family_sort": 4,
+    "family_sort": 9,
     "family_url": "https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory",
     "memory": 112,
     "network_bandwidth": "12",
@@ -8725,7 +8725,7 @@
     "cpu_type": "Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",
     "family": "Dv2",
     "family_category": "Memory Optimized",
-    "family_sort": 5,
+    "family_sort": 10,
     "family_url": "https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory",
     "memory": 140,
     "network_bandwidth": "25",

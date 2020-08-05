@@ -294,114 +294,114 @@ Amazon Web Services,Memory Optimized,z1d,4,z1d.3xlarge,12,96,EBS,1x 450 GiB NVMe
 Amazon Web Services,Memory Optimized,z1d,5,z1d.6xlarge,24,192,EBS,1x 900 GiB NVMe SSD,10,,Intel Xeon (Skylake),https://aws.amazon.com/ec2/instance-types/z1d/,Nitro (KVM)
 Amazon Web Services,Memory Optimized,z1d,6,z1d.12xlarge,48,384,EBS,2x 900 GiB NVMe SSD,25,,Intel Xeon (Skylake),https://aws.amazon.com/ec2/instance-types/z1d/,Nitro (KVM)
 Amazon Web Services,Memory Optimized,z1d,7,z1d.metal,48,384,EBS,2x 900 GiB NVMe SSD,25,,Intel Xeon (Skylake),https://aws.amazon.com/ec2/instance-types/z1d/,Nitro (KVM)
-Google Cloud,Compute Optimized,C2,1,c2-standard-4,4,16,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#c2_machine_types,KVM
-Google Cloud,Compute Optimized,C2,2,c2-standard-8,8,32,SSD,,16,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#c2_machine_types,KVM
-Google Cloud,Compute Optimized,C2,3,c2-standard-16,16,64,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#c2_machine_types,KVM
-Google Cloud,Compute Optimized,C2,4,c2-standard-30,30,120,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#c2_machine_types,KVM
-Google Cloud,Compute Optimized,C2,5,c2-standard-60,60,240,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#c2_machine_types,KVM
-Google Cloud,General Purpose,E2,1,e2-standard-2,2,8,HDD,,4,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,Shared Core,E2,1,e2-micro,2,0.25,HDD,,1,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_shared-core_machine_types,KVM
-Google Cloud,General Purpose,E2,2,e2-standard-4,4,16,HDD,,8,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,Shared Core,E2,2,e2-small,2,0.5,HDD,,1,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_shared-core_machine_types,KVM
-Google Cloud,General Purpose,E2,3,e2-standard-8,8,32,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,Shared Core,E2,3,e2-medium,2,1,HDD,,2,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_shared-core_machine_types,KVM
-Google Cloud,General Purpose,E2,4,e2-standard-16,16,64,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,General Purpose,E2,5,e2-standard-32,32,128,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,General Purpose,E2,6,e2-highmem-2,2,16,HDD,,4,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,General Purpose,E2,7,e2-highmem-4,4,32,HDD,,8,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,General Purpose,E2,8,e2-highmem-8,8,64,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,General Purpose,E2,9,e2-highmem-16,16,128,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,General Purpose,E2,10,e2-highcpu-2,2,2,HDD,,4,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,General Purpose,E2,11,e2-highcpu-4,4,4,HDD,,8,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,General Purpose,E2,12,e2-highcpu-8,8,8,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,General Purpose,E2,13,e2-highcpu-16,16,16,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,General Purpose,E2,14,e2-highcpu-32,32,32,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
-Google Cloud,Memory Optimized,M1,1,m1-ultramem-40,40,961,HDD,,32,,Intel Xeon (Broadwell),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
-Google Cloud,Memory Optimized,M1,2,m1-ultramem-80,80,1922,HDD,,32,,Intel Xeon (Broadwell),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
-Google Cloud,Memory Optimized,M1,3,m1-ultramem-160,160,3844,HDD,,32,,Intel Xeon (Broadwell),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
-Google Cloud,Memory Optimized,M1,4,m1-megamem-96,96,1433.6,SSD,,32,,Intel Xeon (Skylake),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
-Google Cloud,Memory Optimized,M2,1,m2-ultramem-208,208,5888,HDD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#m2_machine_types,KVM
-Google Cloud,Memory Optimized,M2,2,m2-ultramem-416,416,11776,HDD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#m2_machine_types,KVM
-Google Cloud,Memory Optimized,M2,3,m2-megamem-416,416,5888,HDD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#m2_machine_types,KVM
-Google Cloud,General Purpose,N1,1,n1-standard-1,1,3.75,SSD,,2,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,Shared Core,N1,1,f1-micro,1,0.6,HDD,,1,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_shared-core_machine_types,KVM
-Google Cloud,General Purpose,N1,2,n1-standard-2,2,7.5,SSD,,10,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,Shared Core,N1,2,g1-small,1,1.7,HDD,,1,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_shared-core_machine_types,KVM
-Google Cloud,General Purpose,N1,3,n1-standard-4,4,15,SSD,,10,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,4,n1-standard-8,8,30,SSD,,16,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,5,n1-standard-16,16,60,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,6,n1-standard-32,32,120,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,7,n1-standard-64,64,240,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,8,n1-standard-96,96,360,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,9,n1-highmem-2,2,13,SSD,,10,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,10,n1-highmem-4,4,26,SSD,,10,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,11,n1-highmem-8,8,52,SSD,,16,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,12,n1-highmem-16,16,104,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,13,n1-highmem-32,32,208,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,14,n1-highmem-64,64,416,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,15,n1-highmem-96,96,624,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,16,n1-highcpu-2,2,1.8,SSD,,10,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,17,n1-highcpu-4,4,3.6,SSD,,10,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,18,n1-highcpu-8,8,7.2,SSD,,16,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,19,n1-highcpu-16,16,14.4,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,20,n1-highcpu-32,32,28.8,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,21,n1-highcpu-64,64,57.6,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N1,22,n1-highcpu-96,96,86.4,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
-Google Cloud,General Purpose,N2,1,n2-standard-2,2,8,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,2,n2-standard-4,4,16,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,3,n2-standard-8,8,32,SSD,,16,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,4,n2-standard-16,16,64,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,5,n2-standard-32,32,128,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,6,n2-standard-48,48,192,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,7,n2-standard-64,64,256,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,8,n2-standard-80,80,320,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,9,n2-highmem-2,2,16,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,10,n2-highmem-4,4,32,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,11,n2-highmem-8,8,64,SSD,,16,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,12,n2-highmem-16,16,128,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,13,n2-highmem-32,32,256,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,14,n2-highmem-48,48,384,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,15,n2-highmem-64,64,512,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,16,n2-highmem-80,80,640,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,17,n2-highcpu-2,2,2,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,18,n2-highcpu-4,4,4,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,19,n2-highcpu-8,8,8,SSD,,16,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,20,n2-highcpu-16,16,16,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,21,n2-highcpu-32,32,32,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,22,n2-highcpu-48,48,48,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,23,n2-highcpu-64,64,64,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2,24,n2-highcpu-80,80,80,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
-Google Cloud,General Purpose,N2D,1,n2d-standard-2,2,8,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,2,n2d-standard-4,4,16,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,3,n2d-standard-8,8,32,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,4,n2d-standard-16,16,64,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,5,n2d-standard-32,32,128,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,6,n2d-standard-48,48,192,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,7,n2d-standard-64,64,256,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,8,n2d-standard-80,80,320,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,9,n2d-standard-96,96,384,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,10,n2d-standard-128,128,512,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,11,n2d-standard-224,224,896,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,12,n2d-highmem-2,2,16,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,13,n2d-highmem-4,4,32,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,14,n2d-highmem-8,8,64,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,15,n2d-highmem-16,16,128,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,16,n2d-highmem-32,32,256,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,17,n2d-highmem-48,48,384,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,18,n2d-highmem-64,64,512,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,19,n2d-highmem-80,80,640,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,20,n2d-highmem-96,96,768,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,21,n2d-highcpu-2,2,2,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,22,n2d-highcpu-4,4,4,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,23,n2d-highcpu-8,8,8,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,24,n2d-highcpu-16,16,16,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,25,n2d-highcpu-32,32,32,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,26,n2d-highcpu-48,48,48,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,27,n2d-highcpu-64,64,64,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,28,n2d-highcpu-80,80,80,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,29,n2d-highcpu-96,96,96,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,30,n2d-highcpu-128,128,128,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
-Google Cloud,General Purpose,N2D,31,n2d-highcpu-224,224,224,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,Compute Optimized,C2,1,c2-standard-4,4,16,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#c2_machine_types,KVM
+Google Cloud Platform,Compute Optimized,C2,2,c2-standard-8,8,32,SSD,,16,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#c2_machine_types,KVM
+Google Cloud Platform,Compute Optimized,C2,3,c2-standard-16,16,64,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#c2_machine_types,KVM
+Google Cloud Platform,Compute Optimized,C2,4,c2-standard-30,30,120,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#c2_machine_types,KVM
+Google Cloud Platform,Compute Optimized,C2,5,c2-standard-60,60,240,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#c2_machine_types,KVM
+Google Cloud Platform,Shared Core,E2,1,e2-micro,2,0.25,HDD,,1,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_shared-core_machine_types,KVM
+Google Cloud Platform,Shared Core,E2,2,e2-small,2,0.5,HDD,,1,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_shared-core_machine_types,KVM
+Google Cloud Platform,Shared Core,E2,3,e2-medium,2,1,HDD,,2,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_shared-core_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,4,e2-standard-2,2,8,HDD,,4,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,5,e2-standard-4,4,16,HDD,,8,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,6,e2-standard-8,8,32,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,7,e2-standard-16,16,64,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,8,e2-standard-32,32,128,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,9,e2-highmem-2,2,16,HDD,,4,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,10,e2-highmem-4,4,32,HDD,,8,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,11,e2-highmem-8,8,64,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,12,e2-highmem-16,16,128,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,13,e2-highcpu-2,2,2,HDD,,4,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,14,e2-highcpu-4,4,4,HDD,,8,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,15,e2-highcpu-8,8,8,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,16,e2-highcpu-16,16,16,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,General Purpose,E2,17,e2-highcpu-32,32,32,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
+Google Cloud Platform,Memory Optimized,M1,1,m1-ultramem-40,40,961,HDD,,32,,Intel Xeon (Broadwell),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
+Google Cloud Platform,Memory Optimized,M1,2,m1-ultramem-80,80,1922,HDD,,32,,Intel Xeon (Broadwell),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
+Google Cloud Platform,Memory Optimized,M1,3,m1-ultramem-160,160,3844,HDD,,32,,Intel Xeon (Broadwell),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
+Google Cloud Platform,Memory Optimized,M1,4,m1-megamem-96,96,1433.6,SSD,,32,,Intel Xeon (Skylake),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
+Google Cloud Platform,Memory Optimized,M2,1,m2-ultramem-208,208,5888,HDD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#m2_machine_types,KVM
+Google Cloud Platform,Memory Optimized,M2,2,m2-ultramem-416,416,11776,HDD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#m2_machine_types,KVM
+Google Cloud Platform,Memory Optimized,M2,3,m2-megamem-416,416,5888,HDD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#m2_machine_types,KVM
+Google Cloud Platform,Shared Core,N1,1,f1-micro,1,0.6,HDD,,1,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_shared-core_machine_types,KVM
+Google Cloud Platform,Shared Core,N1,2,g1-small,1,1.7,HDD,,1,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_shared-core_machine_types,KVM
+Google Cloud Platform,General Purpose,N1,3,n1-standard-1,1,3.75,SSD,,2,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,4,n1-standard-2,2,7.5,SSD,,10,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,5,n1-standard-4,4,15,SSD,,10,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,6,n1-standard-8,8,30,SSD,,16,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,7,n1-standard-16,16,60,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,8,n1-standard-32,32,120,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,9,n1-standard-64,64,240,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,10,n1-standard-96,96,360,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,11,n1-highmem-2,2,13,SSD,,10,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,12,n1-highmem-4,4,26,SSD,,10,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,13,n1-highmem-8,8,52,SSD,,16,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,14,n1-highmem-16,16,104,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,15,n1-highmem-32,32,208,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,16,n1-highmem-64,64,416,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,17,n1-highmem-96,96,624,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,18,n1-highcpu-2,2,1.8,SSD,,10,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,19,n1-highcpu-4,4,3.6,SSD,,10,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,20,n1-highcpu-8,8,7.2,SSD,,16,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,21,n1-highcpu-16,16,14.4,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,22,n1-highcpu-32,32,28.8,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,23,n1-highcpu-64,64,57.6,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N1,24,n1-highcpu-96,96,86.4,SSD,,32,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
+Google Cloud Platform,General Purpose,N2,1,n2-standard-2,2,8,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,2,n2-standard-4,4,16,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,3,n2-standard-8,8,32,SSD,,16,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,4,n2-standard-16,16,64,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,5,n2-standard-32,32,128,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,6,n2-standard-48,48,192,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,7,n2-standard-64,64,256,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,8,n2-standard-80,80,320,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,9,n2-highmem-2,2,16,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,10,n2-highmem-4,4,32,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,11,n2-highmem-8,8,64,SSD,,16,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,12,n2-highmem-16,16,128,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,13,n2-highmem-32,32,256,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,14,n2-highmem-48,48,384,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,15,n2-highmem-64,64,512,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,16,n2-highmem-80,80,640,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,17,n2-highcpu-2,2,2,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,18,n2-highcpu-4,4,4,SSD,,10,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,19,n2-highcpu-8,8,8,SSD,,16,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,20,n2-highcpu-16,16,16,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,21,n2-highcpu-32,32,32,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,22,n2-highcpu-48,48,48,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,23,n2-highcpu-64,64,64,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2,24,n2-highcpu-80,80,80,SSD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#n2_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,1,n2d-standard-2,2,8,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,2,n2d-standard-4,4,16,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,3,n2d-standard-8,8,32,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,4,n2d-standard-16,16,64,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,5,n2d-standard-32,32,128,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,6,n2d-standard-48,48,192,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,7,n2d-standard-64,64,256,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,8,n2d-standard-80,80,320,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,9,n2d-standard-96,96,384,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,10,n2d-standard-128,128,512,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,11,n2d-standard-224,224,896,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,12,n2d-highmem-2,2,16,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,13,n2d-highmem-4,4,32,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,14,n2d-highmem-8,8,64,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,15,n2d-highmem-16,16,128,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,16,n2d-highmem-32,32,256,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,17,n2d-highmem-48,48,384,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,18,n2d-highmem-64,64,512,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,19,n2d-highmem-80,80,640,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,20,n2d-highmem-96,96,768,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,21,n2d-highcpu-2,2,2,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,22,n2d-highcpu-4,4,4,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,23,n2d-highcpu-8,8,8,SSD,,10,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,24,n2d-highcpu-16,16,16,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,25,n2d-highcpu-32,32,32,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,26,n2d-highcpu-48,48,48,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,27,n2d-highcpu-64,64,64,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,28,n2d-highcpu-80,80,80,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,29,n2d-highcpu-96,96,96,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,30,n2d-highcpu-128,128,128,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
+Google Cloud Platform,General Purpose,N2D,31,n2d-highcpu-224,224,224,SSD,,32,,AMD EPYC (Rome),https://cloud.google.com/compute/docs/machine-types#n2d_machine_types,KVM
 Microsoft Azure,General Purpose,Av2,1,A1_v2,1,2,10 GiB SSD,,0.25,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
 Microsoft Azure,General Purpose,Av2,2,A2_v2,2,4,20 GiB SSD,,0.5,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
 Microsoft Azure,General Purpose,Av2,3,A4_v2,4,8,40 GiB SSD,,1,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
@@ -454,15 +454,15 @@ Microsoft Azure,General Purpose,Ddv4,5,D32d_v4,32,128,1200 GiB SSD,,16,,Intel Xe
 Microsoft Azure,General Purpose,Ddv4,6,D48d_v4,48,192,1800 GiB SSD,,24,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/ddv4-ddsv4-series,Hyper-V
 Microsoft Azure,General Purpose,Ddv4,7,D64d_v4,64,256,2400 GiB SSD,,30,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/ddv4-ddsv4-series,Hyper-V
 Microsoft Azure,General Purpose,DSv2,1,DS1_v2,1,3.5,7 GiB SSD,,0.75,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,DSv2,1,DS11_v2,2,14,28 GiB SSD,,1.5,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
 Microsoft Azure,General Purpose,DSv2,2,DS2_v2,2,7,14 GiB SSD,,1.5,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,DSv2,2,DS12_v2,4,28,56 GiB SSD,,3,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
 Microsoft Azure,General Purpose,DSv2,3,DS3_v2,4,14,28 GiB SSD,,3,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,DSv2,3,DS13_v2,8,56,112 GiB SSD,,6,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
 Microsoft Azure,General Purpose,DSv2,4,DS4_v2,8,28,56 GiB SSD,,6,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,DSv2,4,DS14_v2,16,112,224 GiB SSD,,12,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
 Microsoft Azure,General Purpose,DSv2,5,DS5_v2,16,56,112 GiB SSD,,12,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,DSv2,5,DS15_v2,20,140,280 GiB SSD,,25,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
+Microsoft Azure,Memory Optimized,DSv2,6,DS11_v2,2,14,28 GiB SSD,,1.5,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
+Microsoft Azure,Memory Optimized,DSv2,7,DS12_v2,4,28,56 GiB SSD,,3,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
+Microsoft Azure,Memory Optimized,DSv2,8,DS13_v2,8,56,112 GiB SSD,,6,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
+Microsoft Azure,Memory Optimized,DSv2,9,DS14_v2,16,112,224 GiB SSD,,12,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
+Microsoft Azure,Memory Optimized,DSv2,10,DS15_v2,20,140,280 GiB SSD,,25,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
 Microsoft Azure,General Purpose,Dsv3,1,D2s_v3,2,8,16 GiB SSD,,1,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series,Hyper-V
 Microsoft Azure,General Purpose,Dsv3,2,D4s_v3,4,16,32 GiB SSD,,2,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series,Hyper-V
 Microsoft Azure,General Purpose,Dsv3,3,D8s_v3,8,32,64 GiB SSD,,4,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series,Hyper-V
@@ -478,15 +478,15 @@ Microsoft Azure,General Purpose,Dsv4,5,D32s_v4,32,128,Remote only,,16,,Intel Xeo
 Microsoft Azure,General Purpose,Dsv4,6,D48s_v4,48,192,Remote only,,24,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/dv4-dsv4-series,Hyper-V
 Microsoft Azure,General Purpose,Dsv4,7,D64s_v4,64,256,Remote only,,30,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/dv4-dsv4-series,Hyper-V
 Microsoft Azure,General Purpose,Dv2,1,D1_v2,1,3.5,50 GiB SSD,,0.75,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,Dv2,1,DS11_v2,2,14,28 GiB SSD,,1.5,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
 Microsoft Azure,General Purpose,Dv2,2,D2_v2,2,7,100 GiB SSD,,1.5,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,Dv2,2,DS12_v2,4,28,56 GiB SSD,,3,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
 Microsoft Azure,General Purpose,Dv2,3,D3_v2,4,14,200 GiB SSD,,3,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,Dv2,3,DS13_v2,8,56,112 GiB SSD,,6,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
 Microsoft Azure,General Purpose,Dv2,4,D4_v2,8,28,400 GiB SSD,,6,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,Dv2,4,DS14_v2,16,112,224 GiB SSD,,12,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
 Microsoft Azure,General Purpose,Dv2,5,D5_v2,16,56,800 GiB SSD,,12,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,Dv2,5,DS15_v2,20,140,280 GiB SSD,,25,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
+Microsoft Azure,Memory Optimized,Dv2,6,DS11_v2,2,14,28 GiB SSD,,1.5,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
+Microsoft Azure,Memory Optimized,Dv2,7,DS12_v2,4,28,56 GiB SSD,,3,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
+Microsoft Azure,Memory Optimized,Dv2,8,DS13_v2,8,56,112 GiB SSD,,6,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
+Microsoft Azure,Memory Optimized,Dv2,9,DS14_v2,16,112,224 GiB SSD,,12,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
+Microsoft Azure,Memory Optimized,Dv2,10,DS15_v2,20,140,280 GiB SSD,,25,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv2-dsv2-series-memory,Hyper-V
 Microsoft Azure,General Purpose,Dv3,1,D2_v3,2,8,50 GiB SSD,,1,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series,Hyper-V
 Microsoft Azure,General Purpose,Dv3,2,D4_v3,4,16,100 GiB SSD,,2,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series,Hyper-V
 Microsoft Azure,General Purpose,Dv3,3,D8_v3,8,32,200 GiB SSD,,4,,"Intel Xeon (Cascade Lake, Skylake, Broadwell, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series,Hyper-V

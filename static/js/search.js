@@ -460,7 +460,6 @@ window.onload = function() {
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         const type = urlParams.get('type')
-        console.log(type)
         if (type !== undefined) {
             searchBox.value = type;
             findInstance(searchBox.value, instance_types);
