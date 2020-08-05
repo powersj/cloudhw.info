@@ -13,7 +13,7 @@
 
 const AWS = "Amazon Web Services";
 const Azure = "Microsoft Azure";
-const GCE = "Google Cloud";
+const GCP = "Google Cloud Platform";
 
 const TypeAWS = {
     "options": {
@@ -60,7 +60,7 @@ const TypeAzure = {
     }
 };
 
-const TypeGCE = {
+const TypeGCP = {
     "sizes": {
         "micro": "Shared-core machine type",
         "small": "Shared-core machine type",
@@ -175,7 +175,7 @@ function loadInstanceBoxes(instance) {
     var icon = "cloud";
     if (instance.cloud === AWS) {
         icon = "aws";
-    } else if (instance.cloud === GCE) {
+    } else if (instance.cloud === GCP) {
         icon = "google-cloud";
     } else if (instance.cloud === Azure) {
         icon = "microsoft-azure";
@@ -356,13 +356,13 @@ function decodeAzure(instance) {
     return tokens;
 }
 
-function decodeGCE(instance) {
+function decodeGCP(instance) {
     var tokens = [];
     const values = instance.size.split("-");
 
     tokens.push(new InstanceToken(0, values[0], instance.family_category));
     tokens.push(new InstanceToken(1, "-", "", false));
-    tokens.push(new InstanceToken(2, values[1], TypeGCE.sizes[values[1]]));
+    tokens.push(new InstanceToken(2, values[1], TypeGCP.sizes[values[1]]));
 
     if (values.length > 2) {
         tokens.push(new InstanceToken(3, "-", "", false));
@@ -408,8 +408,8 @@ function loadTypeDecoder(instance) {
         tokens = decodeAWS(instance);
     } else if (instance.cloud === Azure) {
         tokens = decodeAzure(instance);
-    } else if (instance.cloud === GCE) {
-        tokens = decodeGCE(instance);
+    } else if (instance.cloud === GCP) {
+        tokens = decodeGCP(instance);
     } else {
         return;
     }
