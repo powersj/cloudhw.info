@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% block head %}
+{% block head %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{% block title %}{% endblock %} - CloudHW.info</title>
+    <title>CloudHW.info | {% block title %}{% endblock %}</title>
 
     <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" href="css/materialdesignicons.min.css">
@@ -16,12 +16,10 @@
     </style>
 
     <script src="js/base.js"></script>
-
-    {% endblock %}
+{% endblock %}
 </head>
 
 <body>
-
 <div class="container">
     <nav class="navbar" aria-label="main navigation">
         <div class="navbar-brand">
@@ -74,8 +72,7 @@
     </nav>
 </div>
 
-{% block content %}
-{% endblock %}
+{% block content %}{% endblock %}
 
 <footer class="footer">
     <div class="content has-text-centered">
