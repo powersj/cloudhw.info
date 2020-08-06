@@ -132,7 +132,7 @@ function addFamilyMember(member, target_size) {
 
     return `
     ${row_start}
-      <th>${member.size}</th>
+      <th><a href="search.html?type=${member.size}">${member.size}</a></th>
       <td class="has-text-centered">${member.cpu}</td>
       <td class="has-text-centered">${member.memory}</td>
       <td class="has-text-centered">${member.network_bandwidth}</td>
