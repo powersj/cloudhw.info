@@ -1,26 +1,23 @@
 {% extends "base.html" %}
 
-{% block title %}Cloud instance hardware{% endblock %}
+{% block title %}Cloud instance hardware information{% endblock %}
 
 {% block content %}
 <section class="hero is-primary is-fullheight-with-navbar">
     <div class="hero-body">
         <div class="container">
             <h1 class="title">Search for an instance type below to find out more about it!</h1>
-
             <form action="search.html" method="get">
                 <div class="field has-addons">
-                    <div class="control is-expanded has-icons-left">
-                        <div class="select is-fullwidth">
-                            <input class="input" type="text" name="type" id="instance-search"
-                                list="instance_types" placeholder="Enter instance type (e.g. t3.micro)" />
-                        </div>
+                    <div class="control">
+                        <button type="submit" class="button is-danger">Search</button>
+                    </div>
+                    <div class="control is-expanded is-fullwidth has-icons-left">
+                        <input class="input" type="text" name="type" id="instance-search"
+                            list="instance_types" placeholder="Enter instance type (e.g. t3.micro)" />
                         <span class="icon is-left">
                             <i class="mdi mdi-magnify" aria-hidden="true"></i>
                         </span>
-                    </div>
-                    <div class="control">
-                        <button type="submit" class="button is-link">Search</button>
                     </div>
                 </div>
                 <datalist id="instance_types">

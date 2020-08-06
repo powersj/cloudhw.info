@@ -282,6 +282,17 @@ function indexOfFirstDigit(input) {
     return i === input.length ? -1 : i;
 }
 
+function waitForElement(elementId, callBack) {
+    window.setTimeout(function() {
+        var element = document.getElementById(elementId);
+        if(element) {
+            callBack(elementId, element);
+        } else {
+            waitForElement(elementId, callBack);
+        }
+    }, 100)
+}
+
 function decodeAWS(instance) {
     var tokens = [];
 
@@ -424,7 +435,7 @@ function loadTypeDecoder(instance) {
     boxes += "</div>";
 
     document.getElementById("decoder").innerHTML = header + boxes;
-    drawConnections(tokens);
+    return tokens;
 }
 
 function findInstance(search_input, instance_types) {
@@ -436,9 +447,16 @@ function findInstance(search_input, instance_types) {
         }
     }
 
-    if (instance === undefined){
+    if (instance === undefined) {
+        if (search_input !== "") {
+            const unknown = "Oops: unknown instance type";
+            document.getElementById("decoder").innerHTML = unknown;
+        }
+
         return
     }
+
+    document.title = `${instance.size} | cloudhw.info`;
 
     var family = [];
     for (const instance_type of instance_types) {
@@ -447,9 +465,13 @@ function findInstance(search_input, instance_types) {
         }
     }
 
-    loadTypeDecoder(instance);
+    const tokens = loadTypeDecoder(instance);
     loadInstanceBoxes(instance);
     loadFamilyTable(family, instance.size);
+
+    waitForElement("decoder", function() {
+        drawConnections(tokens);
+    });
 }
 
 window.onload = function() {
@@ -464,9 +486,5 @@ window.onload = function() {
             searchBox.value = type;
             findInstance(searchBox.value, instance_types);
         }
-
-        searchBox.addEventListener("input", function(){
-            findInstance(searchBox.value, instance_types);
-        });
     });
 }

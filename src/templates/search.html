@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Index{% endblock %}
+{% block title %}Search{% endblock %}
 
 {% block head %}
     {{ super() }}
@@ -28,25 +28,25 @@
 <br />
 
 <div class="container content">
-    <div class="field has-addons">
-        <div class="control is-expanded has-icons-left">
-            <div class="select is-fullwidth">
+    <form action="search.html" method="get">
+        <div class="field has-addons">
+            <div class="control">
+                <button type="submit" class="button is-danger">Search</button>
+            </div>
+            <div class="control is-expanded is-fullwidth has-icons-left">
                 <input class="input" type="text" name="type" id="instance-search"
                     list="instance_types" placeholder="Enter instance type (e.g. t3.micro)" />
+                <span class="icon is-left">
+                    <i class="mdi mdi-magnify" aria-hidden="true"></i>
+                </span>
             </div>
-            <span class="icon is-left">
-                <i class="mdi mdi-magnify" aria-hidden="true"></i>
-            </span>
         </div>
-        <div class="control">
-            <button type="submit" class="button is-link">Search</button>
-        </div>
-    </div>
-    <datalist id="instance_types">
-        {% for instance in instance_types -%}
-            <option>{{ instance }}</option>
-        {%- endfor %}
-    </datalist>
+        <datalist id="instance_types">
+            {% for instance in instance_types -%}
+                <option>{{ instance }}</option>
+            {%- endfor %}
+        </datalist>
+    </form>
 </div>
 
 <div class="container content">
