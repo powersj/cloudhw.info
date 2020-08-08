@@ -1,0 +1,41 @@
+////////////////////////////////////////////////
+// LUX
+////////////////////////////////////////////////
+$primary: #073642 !default;
+$white: #fff;
+$red: #dc322f;
+$blue: #268bd2;
+$green: #859900;
+$grey: #002b36;
+$grey-light: lighten($grey, 10%);
+$grey-lighter: lighten($grey, 20%);
+
+$link: $red;
+
+$family-sans-serif: "jetbrains mono", "Open Sans", Roboto, "Helvetica Neue", Arial, sans-serif;
+$code-family: "jetbrains mono", monospace;
+
+$body-size: 14px;
+
+$radius: 0;
+$radius-small: $radius;
+
+$navbar-height: 3rem;
+$navbar-background-color: $white;
+$navbar-item-color: $grey;
+$navbar-item-hover-color: $red;
+$navbar-item-active-color: $red;
+$navbar-item-hover-background-color: transparent;
+$navbar-item-active-background-color: transparent;
+$navbar-dropdown-arrow: $primary;
+$navbar-dropdown-background-color: $white;
+$navbar-dropdown-border-top: 1px solid lighten($white, 10);
+$navbar-divider-background-color: lighten($white, 10);
+$navbar-dropdown-item-active-color: $red;
+$navbar-dropdown-item-hover-color: $red;
+$navbar-dropdown-item-hover-background-color: transparent;
+$navbar-dropdown-item-active-background-color: transparent;
+
+$box-shadow: 0 0 0 1px $grey-lighter;
+
+$control-height: 2.5em;

@@ -1,0 +1,12 @@
+#!/bin/bash
+set -x
+
+rm -f bulma.css
+rm -f bulma.min.css
+
+sass --sourcemap=none bulmaswatch.scss:bulma.css
+minify bulma.css > bulma.min.css
+
+mv bulma.min.css ..
+rm bulma.css
+

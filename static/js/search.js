@@ -384,9 +384,6 @@ function decodeGCP(instance) {
 }
 
 function drawConnections(tokens) {
-    const red = "rgb(255, 56, 96)";
-    const circleRadius = 3;
-
     jsPlumb.reset();
     jsPlumb.ready(function() {
         for (const token of tokens) {
@@ -400,11 +397,11 @@ function drawConnections(tokens) {
                 anchors: ["Bottom", "Top"],
                 connector: ["Straight"],
                 paintStyle: {
-                    stroke: red,
+                    stroke: "rgb(218, 40, 37)",
                     strokeWidth: 2
                 },
                 endpointStyle: {
-                    radius: circleRadius
+                    radius: 3
                 },
                 endpoints: ["Dot", "Blank"]
             });
