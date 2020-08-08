@@ -22,7 +22,7 @@ for dictionary in data:
 
 data = sorted(
     data, 
-    key=lambda k: (k['cloud'], k['family_category'], k['family'], ['family_sort'])
+    key=lambda k: (k['cloud'], k['family'], ['family_sort'])
 ) 
 
 with open(json_filename, 'w') as json_file:

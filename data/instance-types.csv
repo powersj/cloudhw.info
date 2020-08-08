@@ -318,11 +318,11 @@ Google Cloud Platform,General Purpose,E2,16,e2-highcpu-16,16,16,HDD,,16,,"Intel 
 Google Cloud Platform,General Purpose,E2,17,e2-highcpu-32,32,32,HDD,,16,,"Intel Xeon (Skylake, Haswell, Broadwell) or AMD EPYC (Rome)",https://cloud.google.com/compute/docs/machine-types#e2_machine_types,KVM
 Google Cloud Platform,Memory Optimized,M1,1,m1-ultramem-40,40,961,HDD,,32,,Intel Xeon (Broadwell),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
 Google Cloud Platform,Memory Optimized,M1,2,m1-ultramem-80,80,1922,HDD,,32,,Intel Xeon (Broadwell),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
-Google Cloud Platform,Memory Optimized,M1,3,m1-ultramem-160,160,3844,HDD,,32,,Intel Xeon (Broadwell),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
-Google Cloud Platform,Memory Optimized,M1,4,m1-megamem-96,96,1433.6,SSD,,32,,Intel Xeon (Skylake),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
+Google Cloud Platform,Memory Optimized,M1,3,m1-megamem-96,96,1433.6,SSD,,32,,Intel Xeon (Skylake),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
+Google Cloud Platform,Memory Optimized,M1,4,m1-ultramem-160,160,3844,HDD,,32,,Intel Xeon (Broadwell),https://cloud.google.com/compute/docs/machine-types#m1_machine_types,KVM
 Google Cloud Platform,Memory Optimized,M2,1,m2-ultramem-208,208,5888,HDD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#m2_machine_types,KVM
-Google Cloud Platform,Memory Optimized,M2,2,m2-ultramem-416,416,11776,HDD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#m2_machine_types,KVM
-Google Cloud Platform,Memory Optimized,M2,3,m2-megamem-416,416,5888,HDD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#m2_machine_types,KVM
+Google Cloud Platform,Memory Optimized,M2,2,m2-megamem-416,416,5888,HDD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#m2_machine_types,KVM
+Google Cloud Platform,Memory Optimized,M2,3,m2-ultramem-416,416,11776,HDD,,32,,Intel Xeon (Cascade Lake),https://cloud.google.com/compute/docs/machine-types#m2_machine_types,KVM
 Google Cloud Platform,Shared Core,N1,1,f1-micro,1,0.6,HDD,,1,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_shared-core_machine_types,KVM
 Google Cloud Platform,Shared Core,N1,2,g1-small,1,1.7,HDD,,1,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_shared-core_machine_types,KVM
 Google Cloud Platform,General Purpose,N1,3,n1-standard-1,1,3.75,SSD,,2,,"Intel Xeon (Skylake, Broadwell, Haswell, Sandy Bridge, Ivy Bridge)",https://cloud.google.com/compute/docs/machine-types#n1_machine_type,KVM
@@ -411,8 +411,8 @@ Microsoft Azure,General Purpose,Av2,6,A4m_v2,4,32,40 GiB SSD,,1,,,https://docs.m
 Microsoft Azure,General Purpose,Av2,7,A8m_v2,8,64,80 GiB SSD,,2,,,https://docs.microsoft.com/en-us/azure/virtual-machines/av2-series,Hyper-V
 Microsoft Azure,General Purpose,B,1,B1ls,1,0.5,4 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
 Microsoft Azure,General Purpose,B,2,B1s,1,1,4 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
-Microsoft Azure,General Purpose,B,3,B1ms,1,2,4 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
-Microsoft Azure,General Purpose,B,4,B2s,2,4,8 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
+Microsoft Azure,General Purpose,B,3,B2s,2,4,8 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
+Microsoft Azure,General Purpose,B,4,B1ms,1,2,4 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
 Microsoft Azure,General Purpose,B,5,B2ms,2,8,16 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
 Microsoft Azure,General Purpose,B,6,B4ms,4,16,32 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
 Microsoft Azure,General Purpose,B,7,B8ms,8,32,64 GiB SSD,,,,,https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable,Hyper-V
@@ -606,10 +606,10 @@ Microsoft Azure,Memory Optimized,M,11,M64,64,1024,7168 GiB SSD,,16,,"Intel Xeon 
 Microsoft Azure,Memory Optimized,M,12,M64m,64,1792,7168 GiB SSD,,16,,"Intel Xeon (Cascade Lake, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/m-series,Hyper-V
 Microsoft Azure,Memory Optimized,M,13,M128,128,2048,14336 GiB SSD,,32,,"Intel Xeon (Cascade Lake, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/m-series,Hyper-V
 Microsoft Azure,Memory Optimized,M,14,M128m,128,3892,14336 GiB SSD,,32,,"Intel Xeon (Cascade Lake, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/m-series,Hyper-V
-Microsoft Azure,Memory Optimized,Mv2,1,M208ms_v2,208,5700,4096 GiB SSD,,16,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,Mv2,2,M208s_v2,208,2850,4096 GiB SSD,,16,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,Mv2,3,M416ms_v2,416,11400,8192 GiB SSD,,32,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,Mv2,4,M416s_v2,416,5700,8192 GiB SSD,,32,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,1,M208s_v2,208,2850,4096 GiB SSD,,16,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,2,M208ms_v2,208,5700,4096 GiB SSD,,16,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,3,M416s_v2,416,5700,8192 GiB SSD,,32,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,4,M416ms_v2,416,11400,8192 GiB SSD,,32,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
 Microsoft Azure,GPU Optimized,NC,1,NC6,6,56,340 GiB SSD,,,1x NVIDIA Tesla K80,Intel Xeon E5-2690 v3 (Haswell),https://docs.microsoft.com/en-us/azure/virtual-machines/nc-series,Hyper-V
 Microsoft Azure,GPU Optimized,NC,2,NC12,12,112,680 GiB SSD,,,2x NVIDIA Tesla K80,Intel Xeon E5-2690 v3 (Haswell),https://docs.microsoft.com/en-us/azure/virtual-machines/nc-series,Hyper-V
 Microsoft Azure,GPU Optimized,NC,3,NC24,24,224,1440 GiB SSD,,,4x NVIDIA Tesla K80,Intel Xeon E5-2690 v3 (Haswell),https://docs.microsoft.com/en-us/azure/virtual-machines/nc-series,Hyper-V
