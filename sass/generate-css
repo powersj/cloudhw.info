@@ -7,6 +7,5 @@ rm -f bulma.min.css
 sass --sourcemap=none bulmaswatch.scss:bulma.css
 minify bulma.css > bulma.min.css
 
-mv bulma.min.css ..
+mv bulma.min.css ../static/css/
 rm bulma.css
-
