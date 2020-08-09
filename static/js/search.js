@@ -1,5 +1,5 @@
 /** This file is part of cloudhw.info. See LICENSE for license infomation.
- * 
+ *
  * Used to generate main page content
  *
  * Hey you! Welcome to this madness. Fair warning, before doing this
@@ -435,25 +435,40 @@ function loadTypeDecoder(instance) {
     return tokens;
 }
 
+
 function findInstance(search_input, instance_types) {
     var instance;
+    var possibilities = [];
+
     for (const type of instance_types) {
         if (type.size === search_input) {
             instance = type;
             break;
+        } else if(type.size.includes(search_input)) {
+            possibilities.push(type);
         }
     }
 
     if (instance === undefined) {
-        if (search_input !== "") {
-            const unknown = "Oops: unknown instance type";
-            document.getElementById("decoder").innerHTML = unknown;
+        var suggestions_text;
+        if (possibilities.length === 0) {
+            suggestions_text = "<h1>No matches found</h1>";
+        } else {
+            suggestions_text = "<h1>Possible Matches</h1><ul>";
+            for (const type of possibilities) {
+                suggestions_text += `
+                <li>
+                    <a href="search.html?type=${type.size}">
+                        ${type.cloud} ${type.size}
+                    </a>
+                </li>`;
+            }
+            suggestions_text += "</ul>";
         }
 
+        document.getElementById("decoder").innerHTML = suggestions_text;
         return
     }
-
-    document.title = `${instance.size} | cloudhw.info`;
 
     var family = [];
     for (const instance_type of instance_types) {
@@ -465,6 +480,7 @@ function findInstance(search_input, instance_types) {
     const tokens = loadTypeDecoder(instance);
     loadInstanceBoxes(instance);
     loadFamilyTable(family, instance.size);
+    document.title = `${instance.size} | cloudhw.info`;
 
     waitForElement("decoder", function() {
         drawConnections(tokens);
