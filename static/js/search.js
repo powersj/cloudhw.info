@@ -495,7 +495,8 @@ window.onload = function() {
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         const type = urlParams.get('type')
-        if (type !== undefined) {
+        if (type !== null & type !== "") {
+            console.log(type);
             searchBox.value = type;
             findInstance(searchBox.value, instance_types);
         }
