@@ -441,10 +441,10 @@ function findInstance(search_input, instance_types) {
     var possibilities = [];
 
     for (const type of instance_types) {
-        if (type.size === search_input) {
+        if (type.size.toLowerCase() === search_input.toLowerCase()) {
             instance = type;
             break;
-        } else if(type.size.includes(search_input)) {
+        } else if(type.size.toLowerCase().includes(search_input.toLowerCase())) {
             possibilities.push(type);
         }
     }
