@@ -38,9 +38,9 @@ class Generate:
             metadata["instances"].append(
                 """
                 <td class="has-text-centered">{cloud}</td>
-                <td class="has-text-centered">{family}</td>
                 <td class="has-text-centered">{category}</td>
-                <td class="has-text-centered">{size}</td>
+                <td class="has-text-centered">{family}</td>
+                <td class="has-text-centered"><a href="{url}">{size}</a></td>
                 <td class="has-text-centered">{cpu}</td>
                 <td class="has-text-centered">{memory}</td>
                 <td class="has-text-centered">{storage_boot}</td>
@@ -50,8 +50,9 @@ class Generate:
                 <td class="has-text-centered">{cpu_type}</td>
                 """.format(
                     cloud=instance_type["cloud"],
-                    family=instance_type["family"],
                     category=instance_type["family_category"],
+                    family=instance_type["family"],
+                    url="search.html?type=%s" % instance_type["size"],
                     size=instance_type["size"],
                     cpu=instance_type["cpu"],
                     memory=instance_type["memory"],
