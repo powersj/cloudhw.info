@@ -50,13 +50,14 @@ const TypeAWS = {
 const TypeAzure = {
     "options": {
         "a": "AMD EPYC processors",
-        "d": "Attached storage",
+        "d": "Local temp disk is present",
+        "h": "Hybernation support",
         "i": "Isolated hardware",
-        "l": "Larger memory to CPU (uncertain)",
-        "m": "Additional memory",
+        "l": "Low memory",
+        "m": "Memory intensive",
         "r": "RDMA support",
-        "s": "Premium storage",
-        "t": "Standard memory to CPU (uncertain)"
+        "s": "Premium storage support",
+        "t": "Tiny memory"
     }
 };
 
@@ -359,9 +360,14 @@ function decodeAzure(instance) {
         counter = counter + 1;
     }
 
-    if (size.length > 1) {
+    if (size.length == 2) {
         tokens.push(new InstanceToken(counter, "_", "", false));
         tokens.push(new InstanceToken(counter + 1, size[1], "Version"));
+    } else if (size.length == 3){
+        tokens.push(new InstanceToken(counter, "_", "", false));
+        tokens.push(new InstanceToken(counter + 1, size[1], "Accelerator Type"));
+        tokens.push(new InstanceToken(counter, "_", "", false));
+        tokens.push(new InstanceToken(counter + 1, size[2], "Version"));
     }
 
     return tokens;
