@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
-"""Print missing Azure instance types."""
+"""Print missing Microsoft Azure instance types."""
 
 import json
 import subprocess
 import sys
 
-from boto3.session import Session
 from tabulate import tabulate
 
 
 def azure_instance_types():
-    """Return list of possible Azure instance types."""
+    """Return list of possible Microsoft Azure instance types."""
     cmd = ["az", "vm", "list-sizes", "--location", "westus", "--output", "json"]
     output = subprocess.run(cmd, capture_output=True)
     if output.returncode != 0:
@@ -21,7 +20,7 @@ def azure_instance_types():
 
 
 def known_azure_sizes():
-    """Return known Azure instance types."""
+    """Return known Microsoft Azure instance types."""
     with open("instance-types.json", "r") as json_file:
         json_types = json.loads(json_file.read())
         return [
@@ -40,11 +39,14 @@ for azure_type in azure_instance_types():
             [name, azure_type["numberOfCores"], azure_type["memoryInMb"]]
         )
 
-print(
-    tabulate(
-        missing_types,
-        ["Size", "CPUs", "Memory"],
-        colalign=("left", "right", "right"),
-        tablefmt="pretty",
+if missing_types:
+    print(
+        tabulate(
+            missing_types,
+            ["Size", "CPUs", "Memory"],
+            colalign=("left", "right", "right"),
+            tablefmt="pretty",
+        )
     )
-)
+else:
+    print("Nothing missing!")

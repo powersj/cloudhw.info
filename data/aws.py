@@ -47,11 +47,14 @@ for aws_type in ec2_instance_types():
             ]
         )
 
-print(
-    tabulate(
-        missing_types,
-        ["Size", "Virt", "CPUs", "Memory", "Network"],
-        colalign=("left", "center", "right", "right", "right"),
-        tablefmt="pretty",
+if missing_types:
+    print(
+        tabulate(
+            missing_types,
+            ["Size", "Virt", "CPUs", "Memory", "Network"],
+            colalign=("left", "center", "right", "right", "right"),
+            tablefmt="pretty",
+        )
     )
-)
+else:
+    print("Nothing missing!")
