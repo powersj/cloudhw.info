@@ -4,6 +4,7 @@
 import json
 
 from boto3.session import Session
+from tabulate import tabulate
 
 
 def ec2_instance_types():
@@ -33,17 +34,24 @@ def known_ec2_sizes():
 
 
 known_types = known_ec2_sizes()
-print("Sizes\t\tVirt\tCPUs\tMemory\tNetworking")
-print("--------------------------------------------------")
+missing_types = []
 for aws_type in ec2_instance_types():
     if aws_type["InstanceType"] not in known_types:
-        print(
-            "%s\t%s\t%s\t%s\t%s"
-            % (
+        missing_types.append(
+            [
                 aws_type["InstanceType"],
                 aws_type["Hypervisor"],
                 aws_type["VCpuInfo"]["DefaultVCpus"],
                 aws_type["MemoryInfo"]["SizeInMiB"],
                 aws_type["NetworkInfo"]["NetworkPerformance"],
-            )
+            ]
         )
+
+print(
+    tabulate(
+        missing_types,
+        ["Size", "Virt", "CPUs", "Memory", "Network"],
+        colalign=("left", "center", "right", "right", "right"),
+        tablefmt="pretty",
+    )
+)

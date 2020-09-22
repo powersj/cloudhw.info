@@ -40,4 +40,11 @@ for azure_type in azure_instance_types():
             [name, azure_type["numberOfCores"], azure_type["memoryInMb"]]
         )
 
-print(tabulate(missing_types, ["Size", "CPUs", "Memory"], colalign=("left","right", "right"), tablefmt="pretty"))
+print(
+    tabulate(
+        missing_types,
+        ["Size", "CPUs", "Memory"],
+        colalign=("left", "right", "right"),
+        tablefmt="pretty",
+    )
+)
