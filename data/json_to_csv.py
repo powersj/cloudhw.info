@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Convert CSV file to JSON
+# Convert and sort the instance-type CSV file to JSON
 #
 
 import csv
