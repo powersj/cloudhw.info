@@ -16,7 +16,7 @@ server: build
 test:
 	isort src
 	flake8 --max-line-length=88 src
-	black --check src
+	black --check data src
 	@echo -e '\xe2\x9c\x85 \xe2\x9c\x85 \xe2\x9c\x85'
 
 venv:

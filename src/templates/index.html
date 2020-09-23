@@ -1,13 +1,12 @@
 {% extends "base.html" %}
 
-{% block title %}Cloud instance hardware information{% endblock %}
+{% block title %}Cloud instance decoder ring{% endblock %}
 
 {% block content %}
-<section class="hero is-primary is-fullheight-with-navbar">
+<section class="hero is-primary is-large">
     <div class="hero-body">
         <div class="container">
-            <h1 class="title">Cloud instance hardware information</h1>
-            <h2 class="subtitle">Search for an instance type below</h2>
+            <h1 class="title">Cloud instance decoder ring</h1>
             <form action="search.html" method="get">
                 <div class="field has-addons">
                     <div class="control">
@@ -27,7 +26,177 @@
                     {%- endfor %}
                 </datalist>
             </form>
+            <h2 class="subtitle">Search for an instance type or choose from a specific family below</h2>
         </div>
     </div>
 </section>
+<br />
+
+<div class="container content">
+    <div class="columns">
+        <div class="column">
+            <h2>
+                <span class="icon">
+                    <i class="mdi mdi-aws" aria-hidden="true"></i>
+                </span>
+                Amazon Web Services
+            </h2>
+
+            <h3>General Purpose</h3>
+            <ul>
+                <li><a href='search.html?type=a1.large'>A1</a></li>
+                <li><a href='search.html?type=t3a.micro'>T3a</a></li>
+                <li><a href='search.html?type=t3.micro'>T3</a></li>
+                <li><a href='search.html?type=t2.micro'>T2</a></li>
+                <li><a href='search.html?type=m6g.large'>M6g</a></li>
+                <li><a href='search.html?type=m5.xlarge'>M5</a></li>
+                <li><a href='search.html?type=m5a.xlarge'>M5a</a></li>
+                <li><a href='search.html?type=m5n.xlarge'>M5n</a></li>
+                <li><a href='search.html?type=m4.xlarge'>M4</a></li>
+            </ul>
+
+            <h3>Compute Optimized</h3>
+            <ul>
+                <li><a href='search.html?type=c6g.large'>C6g</a></li>
+                <li><a href='search.html?type=c5.xlarge'>C5</a></li>
+                <li><a href='search.html?type=c5a.xlarge'>C5a</a></li>
+                <li><a href='search.html?type=c5n.xlarge'>C5n</a></li>
+                <li><a href='search.html?type=c4.xlarge'>C4</a></li>
+            </ul>
+
+            <h3>Memory Optimized</h3>
+            <ul>
+                <li><a href='search.html?type=r6g.large'>R6g</a></li>
+                <li><a href='search.html?type=r5.xlarge'>R5</a></li>
+                <li><a href='search.html?type=r5a.xlarge'>R5a</a></li>
+                <li><a href='search.html?type=r5n.xlarge'>R5n</a></li>
+                <li><a href='search.html?type=r4.xlarge'>R4</a></li>
+                <li><a href='search.html?type=x1e.xlarge'>X1e</a></li>
+                <li><a href='search.html?type=x1.16xlarge'>X1</a></li>
+                <li><a href='search.html?type=u-9tb1.metal'>High Memory</a></li>
+                <li><a href='search.html?type=z1d.xlarge'>z1d</a></li>
+            </ul>
+
+            <h3>Accelerated Computing</h3>
+            <ul>
+                <li><a href='search.html?type=p3.8xlarge'>P3</a></li>
+                <li><a href='search.html?type=p2.8xlarge'>P2</a></li>
+                <li><a href='search.html?type=inf1.2xlarge'>Inf1</a></li>
+                <li><a href='search.html?type=g4dn.2xlarge'>G4</a></li>
+                <li><a href='search.html?type=g3.4xlarge'>G3</a></li>
+                <li><a href='search.html?type=f1.4xlarge'>F1</a></li>
+            </ul>
+
+            <h3>Storage Optimized</h3>
+            <ul>
+                <li><a href='search.html?type=i3.xlarge'>I3</a></li>
+                <li><a href='search.html?type=i3en.xlarge'>I3en</a></li>
+                <li><a href='search.html?type=d2.xlarge'>D2</a></li>
+                <li><a href='search.html?type=h1.4xlarge'>H1</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>
+                <span class="icon">
+                    <i class="mdi mdi-google-cloud" aria-hidden="true"></i>
+                </span>
+                Google Cloud Platform
+            </h2>
+
+            <h3>General Purpose</h3>
+            <ul>
+                <li><a href='search.html?type=e2-standard-4'>E2</a></li>
+                <li><a href='search.html?type=n2-standard-4'>N2</a></li>
+                <li><a href='search.html?type=n2d-standard-4'>N2D</a></li>
+                <li><a href='search.html?type=n1-standard-2'>N1</a></li>
+            </ul>
+
+            <h3>Compute Optimized</h3>
+            <ul>
+                <li><a href='search.html?type=c2-standard-8'>C2</a></li>
+            </ul>
+
+            <h3>Memory Optimized</h3>
+            <ul>
+                <li><a href='search.html?type=m2-megamem-416'>M2</a></li>
+                <li><a href='search.html?type=m1-ultramem-80'>M1</a></li>
+            </ul>
+
+            <h3>Shared Core</h3>
+            <ul>
+                <li><a href='search.html?type=e2-small'>E2</a></li>
+                <li><a href='search.html?type=f1-micro'>N1</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>
+                <span class="icon">
+                    <i class="mdi mdi-microsoft-azure" aria-hidden="true"></i>
+                </span>
+                Microsoft Azure
+            </h2>
+            <h3>General Purpose</h3>
+            <ul>
+                <li><a href='search.html?type=b1s'>B</a></li>
+                <li><a href='search.html?type=d4s_v3'>Dsv3</a></li>
+                <li><a href='search.html?type=d4_v3'>Dv3</a></li>
+                <li><a href='search.html?type=d4as_v4'>Dasv4</a></li>
+                <li><a href='search.html?type=d4a_v4'>Dav4</a></li>
+                <li><a href='search.html?type=ds2_v2'>DSv2</a></li>
+                <li><a href='search.html?type=d2_v2'>Dv2</a></li>
+                <li><a href='search.html?type=a2_v2'>Av2</a></li>
+                <li><a href='search.html?type=dc2s_v2'>DCsv2</a></li>
+                <li><a href='search.html?type=d4_v4'>Dv4</a></li>
+                <li><a href='search.html?type=d4s_v4'>Dsv4</a></li>
+                <li><a href='search.html?type=d4d_v4'>Ddv4</a></li>
+                <li><a href='search.html?type=d4ds_v4'>Ddsv4</a></li>
+            </ul>
+
+            <h3>Compute Optimized</h3>
+            <ul>
+                <li><a href='search.html?type=f4s_v2'>Fsv2</a></li>
+            </ul>
+
+            <h3>Memory Optimized</h3>
+            <ul>
+                <li><a href='search.html?type=e4s_v3'>Esv3</a></li>
+                <li><a href='search.html?type=e4_v3'>Ev3</a></li>
+                <li><a href='search.html?type=e4as_v4'>Easv4</a></li>
+                <li><a href='search.html?type=e4a_v4'>Eav4</a></li>
+                <li><a href='search.html?type=e4_v4'>Ev4</a></li>
+                <li><a href='search.html?type=e4d_v4'>Edv4</a></li>
+                <li><a href='search.html?type=e4ds_v4'>Edsv4</a></li>
+                <li><a href='search.html?type=m208ms_v2'>Mv2</a></li>
+                <li><a href='search.html?type=m16ms'>M</a></li>
+                <li><a href='search.html?type=ds2_v2'>DSv2</a></li>
+                <li><a href='search.html?type=d2_v2'>Dv2</a></li>
+            </ul>
+
+            <h3>Storage Optimized</h3>
+            <ul>
+                <li><a href='search.html?type=L16s_v2'>Lsv2</a></li>
+            </ul>
+
+            <h3>GPU</h3>
+            <ul>
+                <li><a href='search.html?type=nc12'>NC</a></li>
+                <li><a href='search.html?type=nc12s_v2'>NCv2</a></li>
+                <li><a href='search.html?type=nc12s_v3'>NVc3</a></li>
+                <li><a href='search.html?type=nd12s'>ND</a></li>
+                <li><a href='search.html?type=nd40rs_v2'>NDv2</a></li>
+                <li><a href='search.html?type=nv12'>NV</a></li>
+                <li><a href='search.html?type=nv24s_v3'>NVv3</a></li>
+                <li><a href='search.html?type=nv8as_v4'>NVv4</a></li>
+            </ul>
+
+            <h3>High Performance Compute</h3>
+            <ul>
+                <li><a href='search.html?type=hb60rs'>HB</a></li>
+                <li><a href='search.html?type=hb120rs_v2'>HBv2</a></li>
+                <li><a href='search.html?type=hc44rs'>HC</a></li>
+                <li><a href='search.html?type=h6'>H</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 {% endblock %}

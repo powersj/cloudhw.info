@@ -8,22 +8,19 @@ import json
 csv_filename = "instance-types.csv"
 json_filename = "instance-types.json"
 
-with open(csv_filename, 'r') as csv_file:
+with open(csv_filename, "r") as csv_file:
     reader = csv.DictReader(csv_file)
     data = list(reader)
 
 for dictionary in data:
-    dictionary['family_sort'] = int(dictionary['family_sort'])
-    dictionary['cpu'] = int(dictionary['cpu'])
+    dictionary["family_sort"] = int(dictionary["family_sort"])
+    dictionary["cpu"] = int(dictionary["cpu"])
     try:
-        dictionary['memory'] = int(dictionary['memory'])
+        dictionary["memory"] = int(dictionary["memory"])
     except ValueError:
-        dictionary['memory'] = float(dictionary['memory'])
+        dictionary["memory"] = float(dictionary["memory"])
 
-data = sorted(
-    data, 
-    key=lambda k: (k['cloud'], k['family'], ['family_sort'])
-) 
+data = sorted(data, key=lambda k: (k["cloud"], k["family"], ["family_sort"]))
 
-with open(json_filename, 'w') as json_file:
+with open(json_filename, "w") as json_file:
     json.dump(data, json_file, indent=2, sort_keys=True)
