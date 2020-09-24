@@ -36,7 +36,7 @@ def known_ec2_sizes():
 known_types = known_ec2_sizes()
 missing_types = []
 for aws_type in ec2_instance_types():
-    if aws_type["InstanceType"] not in known_types:
+    if aws_type["CurrentGeneration"] and aws_type["InstanceType"] not in known_types:
         missing_types.append(
             [
                 aws_type["InstanceType"],
