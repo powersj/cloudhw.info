@@ -64,8 +64,8 @@ class Generate:
                 )
             )
 
-        template = env.get_template("data.html")
-        self._write_file("data.html", template.render(metadata))
+        template = env.get_template("download.html")
+        self._write_file("download.html", template.render(metadata))
 
     def _generate_index(self, env, instance_types):
         """Generate home page."""
