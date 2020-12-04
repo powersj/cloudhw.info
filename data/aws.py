@@ -37,10 +37,15 @@ known_types = known_ec2_sizes()
 missing_types = []
 for aws_type in ec2_instance_types():
     if aws_type["CurrentGeneration"] and aws_type["InstanceType"] not in known_types:
+        if "Hypervisor" in aws_type:
+            hypervisor =  aws_type["Hypervisor"]
+        else:
+            hypervisor = 'unknown'
+
         missing_types.append(
             [
                 aws_type["InstanceType"],
-                aws_type["Hypervisor"],
+                hypervisor,
                 aws_type["VCpuInfo"]["DefaultVCpus"],
                 aws_type["MemoryInfo"]["SizeInMiB"],
                 aws_type["NetworkInfo"]["NetworkPerformance"],
