@@ -38,9 +38,9 @@ missing_types = []
 for aws_type in ec2_instance_types():
     if aws_type["CurrentGeneration"] and aws_type["InstanceType"] not in known_types:
         if "Hypervisor" in aws_type:
-            hypervisor =  aws_type["Hypervisor"]
+            hypervisor = aws_type["Hypervisor"]
         else:
-            hypervisor = 'unknown'
+            hypervisor = "unknown"
 
         missing_types.append(
             [
