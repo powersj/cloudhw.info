@@ -112,11 +112,15 @@ Amazon Web Services,Storage Optimized,H1,1,h1.2xlarge,8,32,EBS,1x 2000 GiB HDD,<
 Amazon Web Services,Storage Optimized,H1,2,h1.4xlarge,16,64,EBS,2x 2000 GiB HDD,<=10,,Intel Xeon E5-2686 v4 (Broadwell),https://aws.amazon.com/ec2/instance-types/h1/,HVM (Xen)
 Amazon Web Services,Storage Optimized,H1,3,h1.8xlarge,32,128,EBS,4x 2000 GiB HDD,10,,Intel Xeon E5-2686 v4 (Broadwell),https://aws.amazon.com/ec2/instance-types/h1/,HVM (Xen)
 Amazon Web Services,Storage Optimized,H1,4,h1.16xlarge,64,256,EBS,8x 2000 GiB HDD,25,,Intel Xeon E5-2686 v4 (Broadwell),https://aws.amazon.com/ec2/instance-types/h1/,HVM (Xen)
-Amazon Web Services,Memory Optimized,High Memory,1,u-6tb1.metal,448,6144,EBS,,100,,Intel Xeon Platinum 8176M (Skylake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,High Memory,2,u-9tb1.metal,448,9216,EBS,,100,,Intel Xeon Platinum 8176M (Skylake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,High Memory,3,u-12tb1.metal,448,12288,EBS,,100,,Intel Xeon Platinum 8176M (Skylake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,High Memory,4,u-18tb1.metal,448,18432,EBS,,100,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,High Memory,5,u-24tb1.metal,448,24576,EBS,,100,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,High Memory,1,u-6tb1.56xlarge,224,6144,EBS,,100,,Intel Xeon Platinum 8176M (Skylake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,High Memory,2,u-6tb1.112xlarge,448,6144,EBS,,100,,Intel Xeon Platinum 8176M (Skylake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,High Memory,3,u-6tb1.metal,448,6144,EBS,,100,,Intel Xeon Platinum 8176M (Skylake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,High Memory,4,u-9tb1.112xlarge,448,9216,EBS,,100,,Intel Xeon Platinum 8176M (Skylake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,High Memory,5,u-9tb1.metal,448,9216,EBS,,100,,Intel Xeon Platinum 8176M (Skylake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,High Memory,6,u-12tb1.112xlarge,448,12288,EBS,,100,,Intel Xeon Platinum 8176M (Skylake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,High Memory,7,u-12tb1.metal,448,12288,EBS,,100,,Intel Xeon Platinum 8176M (Skylake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,High Memory,8,u-18tb1.metal,448,18432,EBS,,100,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,High Memory,9,u-24tb1.metal,448,24576,EBS,,100,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/high-memory/,Nitro (KVM)
 Amazon Web Services,Storage Optimized,I3,1,i3.large,2,15.25,EBS,1x 475 GiB NVMe SSD,<=10,,Intel Xeon E5-2686 v4 (Broadwell),https://aws.amazon.com/ec2/instance-types/i3/,Nitro (KVM)
 Amazon Web Services,Storage Optimized,I3,2,i3.xlarge,4,30.5,EBS,1x 950 GiB NVMe SSD,<=10,,Intel Xeon E5-2686 v4 (Broadwell),https://aws.amazon.com/ec2/instance-types/i3/,Nitro (KVM)
 Amazon Web Services,Storage Optimized,I3,3,i3.2xlarge,8,61,EBS,1x 1900 GiB NVMe SSD,<=10,,Intel Xeon E5-2686 v4 (Broadwell),https://aws.amazon.com/ec2/instance-types/i3/,Nitro (KVM)
@@ -185,14 +189,16 @@ Amazon Web Services,General Purpose,M5n,5,m5dn.8xlarge,32,128,EBS,2x 600 GiB NVM
 Amazon Web Services,General Purpose,M5n,6,m5dn.12xlarge,48,192,EBS,2x 900 GiB NVMe SSD,50,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
 Amazon Web Services,General Purpose,M5n,7,m5dn.16xlarge,64,256,EBS,4x 600 GiB NVMe SSD,75,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
 Amazon Web Services,General Purpose,M5n,8,m5dn.24xlarge,96,384,EBS,4x 900 GiB NVMe SSD,100,Elastic Fabric Adapter (EFA) Support,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
-Amazon Web Services,General Purpose,M5n,9,m5n.large,2,8,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
-Amazon Web Services,General Purpose,M5n,10,m5n.xlarge,4,16,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
-Amazon Web Services,General Purpose,M5n,11,m5n.2xlarge,8,32,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
-Amazon Web Services,General Purpose,M5n,12,m5n.4xlarge,16,64,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
-Amazon Web Services,General Purpose,M5n,13,m5n.8xlarge,32,128,EBS,,25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
-Amazon Web Services,General Purpose,M5n,14,m5n.12xlarge,48,192,EBS,,50,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
-Amazon Web Services,General Purpose,M5n,15,m5n.16xlarge,64,256,EBS,,75,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
-Amazon Web Services,General Purpose,M5n,16,m5n.24xlarge,96,384,EBS,,100,Elastic Fabric Adapter (EFA) Support,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
+Amazon Web Services,General Purpose,M5n,9,m5dn.metal,96,384,EBS,4x 900 GiB NVMe SSD,100,Elastic Fabric Adapter (EFA) Support,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
+Amazon Web Services,General Purpose,M5n,10,m5n.large,2,8,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
+Amazon Web Services,General Purpose,M5n,11,m5n.xlarge,4,16,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
+Amazon Web Services,General Purpose,M5n,12,m5n.2xlarge,8,32,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
+Amazon Web Services,General Purpose,M5n,13,m5n.4xlarge,16,64,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
+Amazon Web Services,General Purpose,M5n,14,m5n.8xlarge,32,128,EBS,,25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
+Amazon Web Services,General Purpose,M5n,15,m5n.12xlarge,48,192,EBS,,50,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
+Amazon Web Services,General Purpose,M5n,16,m5n.16xlarge,64,256,EBS,,75,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
+Amazon Web Services,General Purpose,M5n,17,m5n.24xlarge,96,384,EBS,,100,Elastic Fabric Adapter (EFA) Support,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
+Amazon Web Services,General Purpose,M5n,18,m5n.metal,96,384,EBS,,100,Elastic Fabric Adapter (EFA) Support,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
 Amazon Web Services,General Purpose,M5zn,1,m5zn.large,2,8,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
 Amazon Web Services,General Purpose,M5zn,2,m5zn.xlarge,4,16,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
 Amazon Web Services,General Purpose,M5zn,3,m5zn.2xlarge,8,32,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/m5/,Nitro (KVM)
@@ -275,22 +281,24 @@ Amazon Web Services,Memory Optimized,R5b,6,r5b.12xlarge,48,384,EBS,,10,,Intel Xe
 Amazon Web Services,Memory Optimized,R5b,7,r5b.16xlarge,64,512,EBS,,20,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
 Amazon Web Services,Memory Optimized,R5b,8,r5b.24xlarge,96,768,EBS,,25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
 Amazon Web Services,Memory Optimized,R5b,9,r5b.metal,96,768,EBS,,25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,1,r5dn.large,2,16,EBS,1x 75 GiB NVMe SSD,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,2,r5dn.xlarge,4,32,EBS,1x 150 GiB NVMe SSD,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,3,r5dn.2xlarge,8,64,EBS,1x 300 GiB NVMe SSD,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,4,r5dn.4xlarge,16,128,EBS,2x 300 GiB NVMe SSD,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,5,r5dn.8xlarge,32,256,EBS,2x 600 GiB NVMe SSD,25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,6,r5dn.12xlarge,48,384,EBS,2x 900 GiB NVMe SSD,50,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,7,r5dn.16xlarge,64,512,EBS,4x 600 GiB NVMe SSD,75,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,8,r5dn.24xlarge,96,768,EBS,4x 900 GiB NVMe SSD,100,Elastic Fabric Adapter (EFA) Support,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,9,r5n.large,2,16,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,10,r5n.xlarge,4,32,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,11,r5n.2xlarge,8,64,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,12,r5n.4xlarge,16,128,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,13,r5n.8xlarge,32,256,EBS,,25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,14,r5n.12xlarge,48,384,EBS,,50,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,15,r5n.16xlarge,64,512,EBS,,75,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
-Amazon Web Services,Memory Optimized,R5n,16,r5n.24xlarge,96,768,EBS,,100,Elastic Fabric Adapter (EFA) Support,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,1,r5n.large,2,16,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,2,r5n.xlarge,4,32,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,3,r5n.2xlarge,8,64,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,4,r5n.4xlarge,16,128,EBS,,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,5,r5n.8xlarge,32,256,EBS,,25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,6,r5n.12xlarge,48,384,EBS,,50,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,7,r5n.16xlarge,64,512,EBS,,75,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,8,r5n.24xlarge,96,768,EBS,,100,Elastic Fabric Adapter (EFA) Support,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,9,r5n.metal,96,768,EBS,,100,Elastic Fabric Adapter (EFA) Support,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,10,r5dn.large,2,16,EBS,1x 75 GiB NVMe SSD,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,11,r5dn.xlarge,4,32,EBS,1x 150 GiB NVMe SSD,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,12,r5dn.2xlarge,8,64,EBS,1x 300 GiB NVMe SSD,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,13,r5dn.4xlarge,16,128,EBS,2x 300 GiB NVMe SSD,<=25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,14,r5dn.8xlarge,32,256,EBS,2x 600 GiB NVMe SSD,25,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,15,r5dn.12xlarge,48,384,EBS,2x 900 GiB NVMe SSD,50,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,16,r5dn.16xlarge,64,512,EBS,4x 600 GiB NVMe SSD,75,,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,17,r5dn.24xlarge,96,768,EBS,4x 900 GiB NVMe SSD,100,Elastic Fabric Adapter (EFA) Support,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,R5n,18,r5dn.metal,96,768,EBS,4x 900 GiB NVMe SSD,100,Elastic Fabric Adapter (EFA) Support,Intel Xeon (Cascade Lake),https://aws.amazon.com/ec2/instance-types/r5/,Nitro (KVM)
 Amazon Web Services,Memory Optimized,R6g,1,r6g.medium,1,8,EBS,,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
 Amazon Web Services,Memory Optimized,R6g,2,r6g.large,2,16,EBS,,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
 Amazon Web Services,Memory Optimized,R6g,3,r6g.xlarge,4,32,EBS,,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/r6/,Nitro (KVM)
@@ -331,12 +339,12 @@ Amazon Web Services,General Purpose,T3a,5,t3a.large,2,8,EBS,,<=5,,AMD EPYC 7000 
 Amazon Web Services,General Purpose,T3a,6,t3a.xlarge,4,16,EBS,,<=5,,AMD EPYC 7000 (Naples),https://aws.amazon.com/ec2/instance-types/t3/,Nitro (KVM)
 Amazon Web Services,General Purpose,T3a,7,t3a.2xlarge,8,32,EBS,,<=5,,AMD EPYC 7000 (Naples),https://aws.amazon.com/ec2/instance-types/t3/,Nitro (KVM)
 Amazon Web Services,General Purpose,T4g,1,t4g.nano,2,0.5,EBS,,<=5,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/t4/,Nitro (KVM)
-Amazon Web Services,General Purpose,T4g,2,t4g.micro,2,1,EBS,,<=5,,AWS Graviton3,https://aws.amazon.com/ec2/instance-types/t4/,Nitro (KVM)
-Amazon Web Services,General Purpose,T4g,3,t4g.small,2,2,EBS,,<=5,,AWS Graviton4,https://aws.amazon.com/ec2/instance-types/t4/,Nitro (KVM)
-Amazon Web Services,General Purpose,T4g,4,t4g.medium,2,4,EBS,,<=5,,AWS Graviton5,https://aws.amazon.com/ec2/instance-types/t4/,Nitro (KVM)
-Amazon Web Services,General Purpose,T4g,5,t4g.large,2,8,EBS,,<=5,,AWS Graviton6,https://aws.amazon.com/ec2/instance-types/t4/,Nitro (KVM)
-Amazon Web Services,General Purpose,T4g,6,t4g.xlarge,4,16,EBS,,<=5,,AWS Graviton7,https://aws.amazon.com/ec2/instance-types/t4/,Nitro (KVM)
-Amazon Web Services,General Purpose,T4g,7,t4g.2xlarge,8,32,EBS,,<=5,,AWS Graviton8,https://aws.amazon.com/ec2/instance-types/t4/,Nitro (KVM)
+Amazon Web Services,General Purpose,T4g,2,t4g.micro,2,1,EBS,,<=5,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/t4/,Nitro (KVM)
+Amazon Web Services,General Purpose,T4g,3,t4g.small,2,2,EBS,,<=5,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/t4/,Nitro (KVM)
+Amazon Web Services,General Purpose,T4g,4,t4g.medium,2,4,EBS,,<=5,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/t4/,Nitro (KVM)
+Amazon Web Services,General Purpose,T4g,5,t4g.large,2,8,EBS,,<=5,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/t4/,Nitro (KVM)
+Amazon Web Services,General Purpose,T4g,6,t4g.xlarge,4,16,EBS,,<=5,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/t4/,Nitro (KVM)
+Amazon Web Services,General Purpose,T4g,7,t4g.2xlarge,8,32,EBS,,<=5,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/t4/,Nitro (KVM)
 Amazon Web Services,Memory Optimized,X1,1,x1.16xlarge,64,976,EBS,1x 1920 GiB SSD,10,,Intel Xeon E7-8880 v3 (Haswell),https://aws.amazon.com/ec2/instance-types/x1/,HVM (Xen)
 Amazon Web Services,Memory Optimized,X1,2,x1.32xlarge,128,1952,EBS,2x 1920 GiB SSD,25,,Intel Xeon E7-8880 v3 (Haswell),https://aws.amazon.com/ec2/instance-types/x1/,HVM (Xen)
 Amazon Web Services,Memory Optimized,X1e,1,x1e.xlarge,4,122,EBS,1x 120 GiB SSD,<=10,,Intel Xeon E7-8880 v3 (Haswell),https://aws.amazon.com/ec2/instance-types/x1e/,HVM (Xen)
@@ -345,6 +353,15 @@ Amazon Web Services,Memory Optimized,X1e,3,x1e.4xlarge,16,488,EBS,1x 480 GiB SSD
 Amazon Web Services,Memory Optimized,X1e,4,x1e.8xlarge,32,976,EBS,1x 960 GiB SSD,<=10,,Intel Xeon E7-8880 v3 (Haswell),https://aws.amazon.com/ec2/instance-types/x1e/,HVM (Xen)
 Amazon Web Services,Memory Optimized,X1e,5,x1e.16xlarge,64,1952,EBS,1x 1920 GiB SSD,10,,Intel Xeon E7-8880 v3 (Haswell),https://aws.amazon.com/ec2/instance-types/x1e/,HVM (Xen)
 Amazon Web Services,Memory Optimized,X1e,6,x1e.32xlarge,128,3904,EBS,2x 1920 GiB SSD,25,,Intel Xeon E7-8880 v3 (Haswell),https://aws.amazon.com/ec2/instance-types/x1e/,HVM (Xen)
+Amazon Web Services,Memory Optimized,X2gd,1,x2gd.medium,1,16,EBS,1x 59 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/x2/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,X2gd,2,x2gd.large,2,32,EBS,1x 118 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/x2/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,X2gd,3,x2gd.xlarge,4,64,EBS,1x 237 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/x2/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,X2gd,4,x2gd.2xlarge,8,128,EBS,1x 475 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/x2/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,X2gd,5,x2gd.4xlarge,16,256,EBS,1x 950 GiB NVMe SSD,<=10,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/x2/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,X2gd,6,x2gd.8xlarge,32,512,EBS,1x 1900 GiB NVMe SSD,12,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/x2/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,X2gd,7,x2gd.12xlarge,48,768,EBS,2x 1425 GiB NVMe SSD,20,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/x2/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,X2gd,8,x2gd.16xlarge,64,1024,EBS,2x 1900 GiB NVMe SSD,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/x2/,Nitro (KVM)
+Amazon Web Services,Memory Optimized,X2gd,9,x2gd.metal,64,1024,EBS,2x 1900 GiB NVMe SSD,25,,AWS Graviton2,https://aws.amazon.com/ec2/instance-types/x2/,Nitro (KVM)
 Amazon Web Services,Memory Optimized,z1d,1,z1d.large,2,16,EBS,1x 75 GiB NVMe SSD,<=10,,Intel Xeon (Skylake),https://aws.amazon.com/ec2/instance-types/z1d/,Nitro (KVM)
 Amazon Web Services,Memory Optimized,z1d,2,z1d.xlarge,4,32,EBS,1x 150 GiB NVMe SSD,<=10,,Intel Xeon (Skylake),https://aws.amazon.com/ec2/instance-types/z1d/,Nitro (KVM)
 Amazon Web Services,Memory Optimized,z1d,3,z1d.2xlarge,8,64,EBS,1x 300 GiB NVMe SSD,<=10,,Intel Xeon (Skylake),https://aws.amazon.com/ec2/instance-types/z1d/,Nitro (KVM)
@@ -585,6 +602,7 @@ Microsoft Azure,Memory Optimized,Edsv4,5,E20ds_v4,20,160,750 GiB SSD,,10,,Intel 
 Microsoft Azure,Memory Optimized,Edsv4,6,E32ds_v4,32,256,1200 GiB SSD,,16,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/edv4-edsv4-series,Hyper-V
 Microsoft Azure,Memory Optimized,Edsv4,7,E48ds_v4,48,384,1800 GiB SSD,,24,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/edv4-edsv4-series,Hyper-V
 Microsoft Azure,Memory Optimized,Edsv4,8,E64ds_v4,64,504,2400 GiB SSD,,30,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/edv4-edsv4-series,Hyper-V
+Microsoft Azure,Memory Optimized,Edsv4,9,E80ids_v4,80,504,2400 GiB SSD,,30,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/edv4-edsv4-series,Hyper-V
 Microsoft Azure,Memory Optimized,Edv4,1,E2d_v4,2,16,75 GiB SSD,,1,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/edv4-edsv4-series,Hyper-V
 Microsoft Azure,Memory Optimized,Edv4,2,E4d_v4,4,32,150 GiB SSD,,2,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/edv4-edsv4-series,Hyper-V
 Microsoft Azure,Memory Optimized,Edv4,3,E8d_v4,8,64,300 GiB SSD,,4,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/edv4-edsv4-series,Hyper-V
@@ -610,6 +628,7 @@ Microsoft Azure,Memory Optimized,Esv4,5,E20s_v4,20,160,Remote only,,10,,Intel Xe
 Microsoft Azure,Memory Optimized,Esv4,6,E32s_v4,32,256,Remote only,,16,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/ev4-esv4-series,Hyper-V
 Microsoft Azure,Memory Optimized,Esv4,7,E48s_v4,48,384,Remote only,,24,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/ev4-esv4-series,Hyper-V
 Microsoft Azure,Memory Optimized,Esv4,8,E64s_v4,64,504,Remote only,,30,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/ev4-esv4-series,Hyper-V
+Microsoft Azure,Memory Optimized,Esv4,9,E80is_v4,80,504,Remote only,,30,,Intel Xeon Platinum 8272CL (Cascade Lake),https://docs.microsoft.com/en-us/azure/virtual-machines/ev4-esv4-series,Hyper-V
 Microsoft Azure,Memory Optimized,Ev3,1,E2_v3,2,16,50 GiB SSD,,1,,"Intel Xeon (Cascade Lake, Skylake, Broadwell)",https://docs.microsoft.com/en-us/azure/virtual-machines/ev3-esv3-series,Hyper-V
 Microsoft Azure,Memory Optimized,Ev3,2,E4_v3,4,32,100 GiB SSD,,2,,"Intel Xeon (Cascade Lake, Skylake, Broadwell)",https://docs.microsoft.com/en-us/azure/virtual-machines/ev3-esv3-series,Hyper-V
 Microsoft Azure,Memory Optimized,Ev3,3,E8_v3,8,64,200 GiB SSD,,4,,"Intel Xeon (Cascade Lake, Skylake, Broadwell)",https://docs.microsoft.com/en-us/azure/virtual-machines/ev3-esv3-series,Hyper-V
@@ -664,10 +683,24 @@ Microsoft Azure,Memory Optimized,M,11,M64,64,1024,7168 GiB SSD,,16,,"Intel Xeon 
 Microsoft Azure,Memory Optimized,M,12,M64m,64,1792,7168 GiB SSD,,16,,"Intel Xeon (Cascade Lake, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/m-series,Hyper-V
 Microsoft Azure,Memory Optimized,M,13,M128,128,2048,14336 GiB SSD,,32,,"Intel Xeon (Cascade Lake, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/m-series,Hyper-V
 Microsoft Azure,Memory Optimized,M,14,M128m,128,3892,14336 GiB SSD,,32,,"Intel Xeon (Cascade Lake, Haswell)",https://docs.microsoft.com/en-us/azure/virtual-machines/m-series,Hyper-V
-Microsoft Azure,Memory Optimized,Mv2,1,M208s_v2,208,2850,4096 GiB SSD,,16,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,Mv2,2,M208ms_v2,208,5700,4096 GiB SSD,,16,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,Mv2,3,M416s_v2,416,5700,8192 GiB SSD,,32,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
-Microsoft Azure,Memory Optimized,Mv2,4,M416ms_v2,416,11400,8192 GiB SSD,,32,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,1,M32ms_v2,32,875,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,2,M32dms_v2,32,875,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,3,M64s_v2,64,1024,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,4,M64ds_v2,64,1024,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,5,M64ms_v2,64,1792,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,6,M64dms_v2,64,1792,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,7,M128s_v2,128,2048,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,8,M128ds_v2,128,2048,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,9,M128ms_v2,128,3892,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,10,M128dms_v2,128,3892,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,11,M192is_v2,192,2048,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,12,M192ids_v2,192,2048,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,13,M192ims_v2,192,4096,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,14,M192idms_v2,192,4096,,,,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,15,M208s_v2,208,2850,4096 GiB SSD,,16,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,16,M208ms_v2,208,5700,4096 GiB SSD,,16,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,17,M416s_v2,416,5700,8192 GiB SSD,,32,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
+Microsoft Azure,Memory Optimized,Mv2,18,M416ms_v2,416,11400,8192 GiB SSD,,32,,Intel Xeon Platinum 8180M (Skylake),https://docs.microsoft.com/en-us/azure/virtual-machines/mv2-series,Hyper-V
 Microsoft Azure,GPU Optimized,NC,1,NC6,6,56,340 GiB SSD,,,1x NVIDIA Tesla K80,Intel Xeon E5-2690 v3 (Haswell),https://docs.microsoft.com/en-us/azure/virtual-machines/nc-series,Hyper-V
 Microsoft Azure,GPU Optimized,NC,2,NC12,12,112,680 GiB SSD,,,2x NVIDIA Tesla K80,Intel Xeon E5-2690 v3 (Haswell),https://docs.microsoft.com/en-us/azure/virtual-machines/nc-series,Hyper-V
 Microsoft Azure,GPU Optimized,NC,3,NC24,24,224,1440 GiB SSD,,,4x NVIDIA Tesla K80,Intel Xeon E5-2690 v3 (Haswell),https://docs.microsoft.com/en-us/azure/virtual-machines/nc-series,Hyper-V
@@ -695,3 +728,7 @@ Microsoft Azure,GPU Optimized,NVv4,1,NV4as_v4,4,14,88 GiB SSD,,1,1/8x AMD Radeon
 Microsoft Azure,GPU Optimized,NVv4,2,NV8as_v4,8,28,176 GiB SSD,,2,1/4x AMD Radeon Instinct M125,AMD EPYC 7V12 (Rome),https://docs.microsoft.com/en-us/azure/virtual-machines/nvv4-series,Hyper-V
 Microsoft Azure,GPU Optimized,NVv4,3,NV16as_v4,16,56,352 GiB SSD,,4,1/2x AMD Radeon Instinct M125,AMD EPYC 7V12 (Rome),https://docs.microsoft.com/en-us/azure/virtual-machines/nvv4-series,Hyper-V
 Microsoft Azure,GPU Optimized,NVv4,4,NV32as_v4,32,112,704 GiB SSD,,8,1x AMD Radeon Instinct M125,AMD EPYC 7V12 (Rome),https://docs.microsoft.com/en-us/azure/virtual-machines/nvv4-series,Hyper-V
+Microsoft Azure,GPU Optimized,NCasT4_v3,1,NC4as_T4_v3,4,28,180 GiB SSD,,8,1x NVIDIA T4,AMD EPYC 7V12 (Rome),https://docs.microsoft.com/en-us/azure/virtual-machines/nct4-v3-series,Hyper-V
+Microsoft Azure,GPU Optimized,NCasT4_v3,2,NC8as_T4_v3,8,56,360 GiB SSD,,8,1x NVIDIA T4,AMD EPYC 7V12 (Rome),https://docs.microsoft.com/en-us/azure/virtual-machines/nct4-v3-series,Hyper-V
+Microsoft Azure,GPU Optimized,NCasT4_v3,3,NC16as_T4_v3,16,110,360 GiB SSD,,8,1x NVIDIA T4,AMD EPYC 7V12 (Rome),https://docs.microsoft.com/en-us/azure/virtual-machines/nct4-v3-series,Hyper-V
+Microsoft Azure,GPU Optimized,NCasT4_v3,4,NC64as_T4_v3,64,440,2880 GiB SSD,,32,4x NVIDIA T4,AMD EPYC 7V12 (Rome),https://docs.microsoft.com/en-us/azure/virtual-machines/nct4-v3-series,Hyper-V
