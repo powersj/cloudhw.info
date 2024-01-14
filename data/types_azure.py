@@ -14,6 +14,7 @@ def azure_instance_types():
     output = subprocess.run(cmd, capture_output=True)
     if output.returncode != 0:
         print("Oops: az vm list-sizes command failed!")
+        print(output.stderr.decode("utf-8"))
         sys.exit(1)
 
     return json.loads(output.stdout)
@@ -36,7 +37,7 @@ for azure_type in azure_instance_types():
         continue
     if name not in known_types:
         missing_types.append(
-            [name, azure_type["numberOfCores"], azure_type["memoryInMb"]]
+            [name, azure_type["numberOfCores"], azure_type["memoryInMB"]]
         )
 
 if missing_types:
